@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   IBM Confidential
+  
+   OCO Source Materials
+  
+   BI and PM: Operations Console
+  
+   (C) Copyright IBM Corp. 2011
+  
+   The source code for this program is not published or otherwise
+   divested of its trade secrets, irrespective of what has been
+   deposited with the U.S. Copyright Office.
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../CCLMessageFile.xsd" localization="Product Locale">
+	<component name="OPS" usage="Operations Console Messages">
+		<section name="CMN" usage="common:CommonMessages" type="UI">	    
+			<string id="RESET" type="String">Reset</string>
+			<string id="CANCEL" type="String">Cancel</string>
+			<string id="CANCEL_UPPER_CASE" type="String">CANCEL</string>
+			<string id="ADD_DATABASE_INSTANCE" type="String">Add Operation Group</string>
+			<string id="REFRESH" type="String">Refresh</string>
+			<string id="UPLOAD_CONFIG_FILE" type="String">Upload Configuration File  </string>
+			<string id="DOWNLOAD_CONFIG_FILE" type="String">Download Configuration File  </string>
+			<string id="EXIT" type="String">Exit</string>
+			<string id="FILE" type="String">File</string>
+			<string id="RELOAD_CONFIG_FILE" type="String">Reload Configuration File</string>
+			<string id="EDIT" type="String">Edit</string>
+			<string id="TILE_VERTICALLY" type="String">Tile Vertically</string>
+			<string id="BOX_TILE" type="String">Box Tile</string>
+			<string id="TILE_HORIZONTALLY" type="String">Tile Horizontally</string>
+			<string id="LOWER_PANE" type="String">Lower Pane</string>
+			<string id="VIEW" type="String">View</string>
+			<string id="ADD" type="String">Add</string>
+			<string id="SAVE" type="String">Save</string>
+			<string id="DELETE" type="String">Delete</string>
+			<string id="USER" type="String">User</string>
+			<string id="CREATE_NEW_USER" type="String">Create New User</string>
+			<string id="ENTER_YOUR_USER_ID" type="String">Enter your User ID</string>
+			<string id="LOG_IN" type="String">Log In</string>
+			<string id="PLEASE_ENTER_YOUR_INFORMATION" type="String">Please Enter Your Information</string>
+			<string id="USERNAME" type="String">Username:</string> 
+			<string id="PASSWORD" type="String">Password:</string>
+			<string id="INACTIVITY_MSG" type="String">Please note that after some time of inactivity, the system will log you out automatically and ask you to sign in again.</string>
+			<string id="BLANK_USERNAME_MSG" type="String">Username cannot be blank.</string>
+			<string id="WRONG_USERNAME_PASSWORD_ALERT" type="String">Wrong username or password. Please try again</string>
+			<string id="NEW_PASSWORD_EMAIL_ALERT" type="String">The new password has been mailed to the registered email id</string>
+			<string id="USERNAME_NOT_EXIST" type="String">The username does not exist</string>
+			<string id="FAILURE" type="String">failure</string>
+			<string id="FORGOT_PASSWORD_MESSAGE" type="String">Forgot your password? </string>
+			<string id="TITLE" type="String">TM1 Monitor</string>
+			<string id="CREATE" type="String">Create</string>
+			<string id="ACTION_MENU" type="String">Action Menu</string>
+			<string id="ADD_USER" type="String">Add User</string>
+			<string id="SELECT_ADMINHOST_MSG" type="String">Select an adminhost</string>
+			<string id="SELECT_SERVER_MSG" type="String">Select a server</string>
+			<string id="ADMINHOST" type="String">Adminhost</string>
+			<string id="SERVERNAME" type="String">Servername</string>
+			<string id="GROUP" type="String">Group</string>
+			<string id="TILE" type="String">Tile</string>
+			<string id="ADD_APP_SERVER" type="String">Add Application Server</string>
+			<string id="APP_SERVER" type="String">Application Server</string>
+			
+			
+			<string id="LOGIN_INVALID_MESSAGE" type="String">A valid value has not been entered in the required fields.</string>
+
+			<!-- Legal Text -->
+			<string id="product_copyright" type="String">Licensed Materials - Property of IBM Corp. </string>
+			<string id="product_trademark" type="String">Property of IBM Corp. © Copyright IBM Corporation and other(s) 2011, 2016. IBM, the IBM logo, ibm.com, Cognos, and TM1 are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. A current list of IBM trademarks is available on the Web at www.ibm.com/legal/copytrade.shtml. Other product and service names might be trademarks of IBM or other companies. This Program is licensed under the terms of the license agreement accompanying the Program. This license agreement may be either located in a Program directory folder or library identified as "License" or "Non_IBM_License", if applicable, or provided as a printed license agreement. Please read the agreement carefully before using the Program. By using the Program you agree to these terms.US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.</string>
+			<string id="about_product_text" type="String">Licensed Materials - Property of IBM Corp. © Copyright IBM Corporation and other(s) 2011, 2016. IBM, the IBM logo, ibm.com, Cognos, and TM1 are trademarks or registered trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. A current list of IBM trademarks is available on the Web at www.ibm.com/legal/copytrade.shtml. Other product and service names might be trademarks of IBM or other companies. This Program is licensed under the terms of the license agreement accompanying the Program. This license agreement may be either located in a Program directory folder or library identified as "License" or "Non_IBM_License", if applicable, or provided as a printed license agreement. Please read the agreement carefully before using the Program. By using the Program you agree to these terms.US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.</string>
+			<string id="ABOUT_VERSION" type="String">Version </string>
+
+            <!-- Menu Bar -->
+			<string id="NEW_DATABASE_INSTANCE" type="String">New Operation Group </string>
+			<string id="ADD_SUCCESS_MSG" type="String"> added successfully</string>
+			<string id="SERVER_UNAVAILABLE_MSG" type="String">Could not connect to server</string>
+			<string id="ERROR" type="String">Error</string>
+			<string id="DATABASE_INSTANCE" type="String">Database Instance </string>
+			<string id="OPERATION_GROUP" type="String">Operation Group </string>
+			<string id="EXISTS_MSG" type="String"> already exists </string>			
+				
+             <!-- Upload file -->
+			<string id="UPLOAD_FILE" type="String">Upload File</string>
+			<string id="UPLOAD" type="String">Upload</string>
+			<string id="FILE_UPLOAD" type="String">File Upload</string>
+			<string id="FILE_UPLOADED_SUCCESS_MSG" type="String">File uploaded successfully</string>
+			<!-- string id="DOWNLOAD_CONFIG_FILE" type="String">Download Configuration file</string -->
+			<string id="DOWNLOAD" type="String">Download</string>
+			<string id="CONFIRM_DOWNLOAD_MSG" type="String">Do you want to download the configuration file?</string>
+			<string id="CONFIRM_DOWNLOAD_LOG_MSG" type="String">Do you want to download the log file?</string>
+			<string id="FILE_UPLOAD_BROWSE" type="String">Browse</string>
+			<string id="NO_LOG_FILE" type="String">No log file exist</string>
+	
+            <!-- //Change Passwrod   -->
+			<string id="CHANGE_PASSWORD" type="String">Change Password</string>
+			<string id="OLD_PASSWORD" type="String">Old Password:</string>
+			<string id="NEW_PASSWORD" type="String">New Password:</string>
+			<string id="CHANGE" type="String">Change</string>
+			<string id="INCORRECT_PASSWORD_MSG" type="String">Wrong password</string>
+			
+			<!-- NEW USER -->
+			<string id="USER_GROUP" type="String">User Group:</string>
+			<string id="EMAIL" type="String">Email ID::</string>
+			<string id="DELETE_USER" type="String">Delete User</string>
+			<string id="DELETE_UPPER_CASE" type="String">Delete</string>
+			<string id="NEW_USER" type="String"> New user</string>
+				
+            <!-- DELETE USER  -->
+			<string id="DELETE_SUCCESS_MSG" type="String"> deleted successfully</string>
+			<string id="DELETE_UNSUCCESSFUL_MSG" type="String"> User could not be deleted</string>	
+			<string id="COULD_NOT_DELETE_MSG" type="String">Could not be deleted</string> 
+
+            <!-- AccordianPane Title -->
+			<string id="ACCORDIAN_TREE_TITLE" type="String">TM1 Environment</string>
+			<string id="ACCORDIAN_ICAS_TREE_TITLE" type="String">ICAS Environment</string>
+			<string id="ACCORDIAN_CANVAS_TITLE" type="String">Monitors</string>
+	
+					
+			<!-- Dashboard -->
+			<string id="Tab_HealthCheck_TITLE" type="String">Server Health Status</string>
+			<string id="ServerHealthStatus_MENU" type="String">Show Server Health Status</string>
+			<string id="Empty_HealthCheck_Tab" type="String">No Servers Available</string>
+			<string id="Tab_Logging_TITLE" type="String">Logging</string>
+			<string id="Tab_TM1_Logging_TITLE" type="String">TM1 Servers</string>
+			<string id="Tab_App_Logging_TITLE" type="String">Application Servers</string>
+			<string id="Tab_Watchdog_TITLE" type="String">Watchdog</string>
+            <string id="THRESHOLD" type="String">Threshold</string>
+            <string id="THREAD_COUNT" type="String">Thread Count</string>				
+				
+            <!-- //POP-UP MENU-->
+            <string id="ADD_MACHINE" type="String">Add Machine</string>               
+			<string id="ADD_ADMINHOST" type="String">Add Adminhost</string>
+			<string id="ADD_SERVER" type="String">Add TM1Server</string>
+			<string id="DELETE_DATABASE_MSG" type="String">Delete Operation Group</string>
+			<string id="ADD_SERVER_MSG" type="String">Add TM1 Server</string>
+			<string id="DELETE_ADMINHOST_MSG" type="String">Delete Admin Host</string>
+			<string id="START_MSG" type="String">Start</string>
+			<string id="START_SERVER_MSG" type="String">Start Server</string>
+			<string id="SERVER" type="String">Server</string>
+			<string id="IS_STARTED_MSG" type="String">Is started</string>
+
+			<string id="STOP_MSG" type="String">Stop</string>
+			<string id="STATUS_MSG" type="String">Status</string>
+			<string id="ENHANCED_STATUS_MSG" type="String">Enhanced Status</string>
+			<string id="SANDBOX_MSG" type="String">Sandbox</string>
+			<string id="SANDBOX_QUEUE_MSG" type="String">Sandbox Queue</string>
+			<string id="PERFORMANCE_STATISTICS_MSG" type="String">Performance Statistics</string>
+			<string id="PROCESSES" type="String">Processes</string>
+			<string id="CHORES" type="String">Chores</string>
+			<string id="CLIENT_NAME" type="String">Client Name</string>
+			<string id="THREAD_ID" type="String">Thread Id</string>
+
+			<string id="START_ANALYSIS_MSG" type="String">Start Analysis</string>
+			<string id="STOP_ANALYSIS_MSG" type="String">Stop Analysis</string>
+			<string id="VIEW_REPORT_MSG" type="String">View Report</string>
+			<string id="UNAUTHORIZED_MSG" type="String">You are not authorised to view this page.</string>
+			<string id="LOGIN" type="String">Login</string>
+			<string id="LOGOUT" type="String">Log Out</string>
+			<string id="ABOUT" type="String">About</string>
+			<string id="LOGGED_OUT_MSG" type="String">You have been logged out</string>
+			<string id="CONFIGURE" type="String">Configure</string>
+			<string id="SET_CFG_PARAMETER" type="String">Set CFG Parameter</string>
+			<string id="VIEW_LOG" type="String">View Log</string>
+			<string id="DOWNLOAD_LOG_FILE" type="String">Download Log File</string>
+			<string id="MONITOR" type="String">Monitor</string>
+			<string id="CONTENTION" type="String">Contention</string>
+			<string id="INSPECT" type="String">Inspect</string>
+			<string id="CONFIGURE_SETTINGS_MSG" type="String">Configure Settings</string>
+			<string id="MESSAGE" type="String">Message</string>
+			<string id="DATABASE_MSG" type="String">Database Instance</string>
+			<string id="ADMINHOST_MSG" type="String">Adminhost</string>
+			<string id="SERVER_MSG" type="String">TM1Server </string>
+			<string id="APPLICATION_SERVER" type="String">Application Server</string>
+			<string id="WITH_NAME_MSG" type="String">with name </string>
+			<string id="NEW_ADMINHOST_MSG" type="String">New Adminhost</string>
+			<string id="NEW_SERVER_MSG" type="String">New TM1 server</string>
+			<string id="DATABASE_INSTANCE_MSG" type="String">Database instance</string>
+			<string id="IN" type="String">in</string>
+			<string id="UNDER" type="String">under</string>
+			<string id="SUCCESS_MSG" type="String">Success</string>
+			<string id="SERVER_STOPPED_MSG" type="String">Server stopped</string>
+			<string id="ERROR_SHUTDOWN_MSG" type="String">Couldnot stop the server. Check the username/password</string>
+			<string id="LOGGING_SCHEDULER" type="String">Logging</string>
+	
+			<string id="AUTHENTICATE_MSG" type="String">Verify Admin Access</string>
+			<string id="AUTHENTICATION_SUCCESS_MSG" type="String">Authentication Successful</string>
+			<string id="OK" type="String">OK</string>
+			
+			<string id="DELETE_APP_SERVER" type="String">Delete Application Server</string>
+			<string id="VIEW_STATS" type="String">View Statistics</string>
+			<string id="STATISTICS" type="String">Statistics</string>
+			<string id="SESSION_INFORMATION" type="String">Session Information</string>
+			
+			<string id="WATCHDOG_MSG" type="String">WatchDog</string>
+			<string id="NEW_WATCHDOG_RULE" type="String">Add New Rule</string>
+			<string id="EDIT_WATCHDOG_RULE" type="String">Edit Rule</string>
+			<string id="WATCHDOG_FREQUENCY_VALIDATION_MSG" type="String">Incorrect value provided for frequency field.</string>
+            <string id="WATCHDOG_RULES_VALIDATION_MSG" type="String">No rule specified. Please specify atleast one rule.</string>
+            <string id="WATCHDOG_KILL_FAILURE_STRING" type="String">Encountering failures killing any of the identified PIDs</string>
+            <string id="WATCHDOG_MULTIPLE_RUN_FAILURES" type="String">Watchdog retries expired, encountered server communication issues</string>
+            <string id="WATCHDOG_DELETE_SUCCESS" type="String">Successfully deleted Watchdog</string>
+            <string id="WATCHDOG_DELETE_FAILURE" type="String">Failure deleting Watchdog</string>
+            <string id="WATCHDOG_SAVE_SUCCESS" type="String">Successfully saved Watchdog</string>
+            <string id="WATCHDOG_SAVE_FAILURE" type="String">Failure saving Watchdog</string>
+            <string id="WATCHDOG_START_SUCCESS" type="String">Successfully started Watchdog</string>
+            <string id="WATCHDOG_START_FAILURE" type="String">Failure starting Watchdog</string>
+            <string id="WATCHDOG_STOP_SUCCESS" type="String">Successfully stopped Watchdog</string>
+            <string id="WATCHDOG_STOP_FAILURE" type="String">Failure stopping Watchdog</string>
+            <string id="WATCHDOG_STARTED" type="String">Started by user</string>
+			<string id="WATCHDOG_NOT_SETUP" type="String">Not created by any Admin user</string>
+			<string id="WATCHDOG_NOT_STARTED" type="String">Not started by any Admin user</string>
+			<string id="WATCHDOG_STOPPED" type="String">Stopped by user</string>
+			<string id="INTERNAL_SERVER_ERROR" type="String">Internal Server Error, see log for details.</string>
+			<string id="RULE_ALREADY_EXISTS" type="String">Rule already exists. Please specify different conditions</string>
+			<string id="RULE_MANDATE_FIELD" type="String">Please specify value for atleast one condition field</string>
+			<string id="RULE_MANDATE_FIELDS" type="String">Please specify value for atleast two condition fields</string>
+			<string id="RULE_SAVE_INST" type="String">Satisfied rules cause irreversible action on server processes</string>
+			<string id="RULE_SAVE_CONFIRM" type="String">Are you sure you want to save the rule?</string>
+			
+			<string id="LESS_THAN" type="String">Less Than</string>
+			<string id="GREATER_THAN" type="String">Greater Than</string>
+			<string id="EQUALS" type="String">Equals</string>
+			<string id="NOT_EQUALS" type="String">Not Equals</string>
+			<string id="KILL" type="String">Kill</string>
+
+             <!-- //CONFIGURE WINDOW-->
+			<string id="SECONDS" type="String">sec</string>
+			<string id="MINUTES" type="String">min</string>
+			<string id="LOG_PERIOD" type="String">Log Period</string>
+			<string id="LOG_APPEND" type="String">Log Append</string>
+			<string id="REFRESH_PERIOD" type="String">Top Refresh Period</string>
+			<string id="TOLERANCE_FACTOR" type="String">Top Tolerance Factor</string>
+			<string id="TIME_OUT" type="String">Top Time Out</string>
+						
+			<string id="MEMORY_STATS_REFRESH_PERIOD" type="String">Memory Stats Refresh Period</string>
+			<string id="MEMORY_STATS_TOLERANCE_FACTOR" type="String">Memory Stats Tolerance Factor</string>
+			<string id="MEMORY_STATS_TIME_OUT" type="String">Memory Stats Time Out</string>
+			
+			<string id="APP_REFRESH_PERIOD" type="String">Refresh Period</string>
+			<string id="APP_TOLERANCE_FACTOR" type="String">Tolerance Factor</string>
+			<string id="APP_TIME_OUT" type="String">Time Out</string>	
+			<string id="MEGABYTES" type="String">MB</string>		
+			
+			<string id="ADMINSVRSSLCERTID" type="String">Adminsvrsslcertid</string>
+			<string id="ADMINSVRSSLCERTAUTHORITY" type="String">Adminsvrsslcertauthority</string>
+			<string id="ADMINSVRSSLCERTREVLIST" type="String">Adminsvrsslcertrevlist</string>
+			<string id="ADMINSVRSSLEXPORTKEYID" type="String">Adminsvrsslexportkeyid</string>
+			<string id="EXPORTADMINSVRSSLCERT" type="String">Exportadminsvrsslcert</string>
+			<string id="EXEC_NAME" type="String">Exec Name</string>
+			<string id="CFG_FILE_NAME" type="String">Cfg File Name</string>
+			<string id="DATABASE_DIR_PATH" type="String">Database Directory Path</string>
+			<string id="PORT_NUMBER" type="String">Port Number</string>
+			<string id="NUMERIC_PARAMETERS" type="String">Numeric Parameters</string>
+			<string id="SSL_PARAMETERS" type="String">SSL Parameters</string>
+			<string id="SERVER_CONFIG_PARAMS" type="String">Server Configuration Parameters</string>
+	
+	
+			<string id="WARNING" type="String">Warning</string>
+			<string id="INTEGER_VALUE_MSG" type="String">must have an integer value</string>
+			<string id="ANALYSIS_STARTED_MSG" type="String">Analysis started</string>
+			<string id="INFO_MSG" type="String">Info</string>
+			<string id="ANALYSIS_NOT_STARTED_MSG" type="String">Could not start the analysis</string>
+			<string id="ANALYSIS_NOT_STOPPED_MSG" type="String">Could not stop the analysis</string>
+			<string id="ANALYSIS_STOPPED_MSG" type="String">Analysis stopped</string>
+			<string id="COULD_NOT_VIEW_MSG" type="String">Could not view</string>
+			<string id="CONTENTION_REPORT" type="String">Contention report</string>
+			<string id="LOGIN_SUCCESS_MSG" type="String">You have successfully logged in </string>
+			<string id="INCORRECT_CREDENTIALS_MSG" type="String">Incorrect credentials specified</string>
+			<string id="PARAMETER_NAME" type="String">Parameter Name</string>
+			<string id="PARAMETER_TYPE" type="String">Parameter Type</string>
+			<string id="PARAMETER_VALUE" type="String">Parameter Value</string>
+			<string id="PARAMETER_ADD_SUCCESS_MSG" type="String">Parameter added successfully</string>
+			<string id="PROCESS_SUPERVISOR_UNAVAILABLE_MSG" type="String">Could not connect to Process Supervisor on  </string>
+			<string id="PARAMETER_BLANK_MSG" type="String">Parameter value cannot be blank</string>
+	
+	
+            <!-- //CONTENT TREE-->
+			
+
+            <!--//Status grid  -->
+            <string id="SERVER_SUMMARY_DATA" type="String">Summary Server Data</string>
+            <string id="TRANSACTION_LOGS_QUERY" type="String">Transaction Log Filter</string>
+            <string id="TRANSACTION_LOG" type="String">Transaction Log</string>
+            <string id="MESSAGE_LOG" type="String">Message Log</string>
+            <string id="AUDIT_LOG" type="String">Audit Log</string>
+			<string id="ID" type="String">ID</string>
+			<!-- string id="USER" type="String">User</string -->
+			<string id="STATE" type="String">State</string>
+			<string id="FUNCTION" type="String">Function</string>
+			<string id="OBJ_LOCK_STATUS" type="String">Obj Lock Status</string>
+			<string id="USER_LOCK_STATUS" type="String">User Lock Status</string>
+			<string id="TYPE" type="String">Type</string>
+			<string id="OBJECT" type="String">Object</string>
+			<string id="BASIC" type="String">Basic</string>
+			<string id="ENHANCED" type="String">Enhanced</string>
+			
+			<string id="TIME" type="String">Time (s)</string>
+			<string id="TIME_IN_MINUTES" type="String">min</string>
+			<string id="TIMEOUT" type="String">timeout</string>
+			<string id="CLOSE_TOOLTIP" type="String">Close</string>
+			<string id="MINIMIZE_TOOLTIP" type="String">Minimize</string>
+			<string id="MAXIMIZE_TOOLTIP" type="String">Maximize</string>
+			<string id="RESTORE_TOOLTIP" type="String">Restore</string>
+			<string id="RENAME_TAB" type="String">Rename Tab...</string>
+			<string id="ADD_PANE" type="String">Add Pane...</string>
+			<string id="MOVE_TAB" type="String">Move Tab</string>
+			 
+			<!-- //Sandbox grid -->
+			<!-- string id="USER" type="String">User</string --> 
+			<string id="ACTIVE_SANDBOX" type="String">Active Sandbox</string>
+			<string id="TOTAL_SANDBOX_MEMORY" type="String">Total Sandbox Memory</string>
+			<string id="NO_OF_SANDBOXES" type="String">Number of Sandboxes</string>
+			<string id="NAME" type="String">Name</string>
+			<!-- string id="USER" type="String">User</string -->
+			<string id="NODE_NAME" type="String">Node Name</string>
+			<string id="TIME_IN_QUEUE" type="String">Time in Queue</string>
+			<string id="FILTER_OFF" type="String">Filter OFF</string>
+			<string id="Apply_Changes" type="String">Apply Changes</string>
+			<string id="KILL_PROCESS" type="String">Cancel Process</string>
+			<string id="CANCEL_SANDBOX_REQUEST" type="String">Cancel Sandbox Request</string>
+			<string id="THREADS_IN_USE" type="String">Threads in Use</string>
+			<string id="QUEUE_DEPTH" type="String">Queue Depth</string>
+			<string id="AVERAGE_QUEUE_TIME" type="String">Average Queue Time</string>
+			<string id="DEQUEUE_DELTA" type="String">Dequeue Delta</string>
+			<string id="QUEUE_TIME_DELTA" type="String">Queue Time Delta</string>
+			<string id="API_CALLS_DELTA" type="String">API Calls Delta</string>
+			<string id="CONFIRM_KILL_PROCESS" type="String">Confirm Cancel Process</string>
+			<string id="CONFIRM_KILL_MSG" type="String">Are you sure you want to kill the process with Pid = </string>
+			<string id="CONFIRM_CANCEL_SB_MSG" type="String"> Are you sure you want to cancel the request with Pid </string>
+			<string id="CHECK_INTERNET_CONNECTION" type="String">Please check your internet connection</string>
+			<string id="PROCESS_KILLED_MSG" type="String">Request to cancel the selected process has been submitted.</string>
+			<string id="SANDBOX_CANCEL_SUCCESS_MSG" type="String">Request to cancel the queued sandbox has been submitted.</string>
+			<string id="KILL_UNSUCCESSFUL_MSG" type="String">Sorry, process could not be killed.</string>
+			<string id="ERROR_IN_AUTHENTICATE" type="String">An error occured while validating credentials! </string>
+			<!-- //Performance grid -->
+			<string id="PERF_CUBES" type="String">}PerfCubes</string>
+			<string id="MEMORY_FOR_VIEWS" type="String">Memory Used for Views</string>
+			<string id="MEMORY_FOR_CALCULATIONS" type="String">Memory Used for Calculations</string>
+			<string id="MEMORY_FOR_FEEDERS" type="String">Memory Used for Feeders</string>
+			<string id="MEMORY_FOR_INPUT_DATA" type="String">Memory Used for Input Data</string>
+			<string id="TOTAL_MEMORY_USED" type="String">Total Memory Used (Mb)</string>
+
+            <!-- //IDX -->
+            
+            <string id="APPLY_FILTER" type="String">Apply Filter</string>
+            <string id="NO_ITEMS_GRID" type="String">No items to display</string>
+            <string id="LABEL_USERNAME" type="String">User name</string>
+            <string id="LABEL_PASSWORD" type="String">Password</string>
+            <string id="CONFIRMATION" type="String">Confirmation</string>
+            
+            <!-- //FILTER -->
+			<string id="DISABLE" type="String">Disable</string>
+			<string id="ENABLE" type="String">Enable</string>
+			<string id="FILTER_STATE_MSG" type="String">Filter State</string>
+			<string id="ERROR_CHECK_FILTER" type="String">Error on check selection of filter - </string>
+			<string id="ERROR_RADIO_FILTER" type="String">Error on radio selection of filter - </string>
+			<!-- string id="FILTER_OFF" type="String">Filter</string -->
+			<string id="FILTER_ON" type="String">Filter ON</string>
+			<string id="FILTER_SHOW_STATE_MSG" type="String">Show only the following states</string>
+			<string id="FILTER_SELECT_ALL" type="String">Select All</string>
+			<string id="FILTER_DESELECT_ALL" type="String">Deselect All</string>
+			<string id="FILTER_SHOW_STATE_GRID_MSG" type="String">Showing states</string>
+			<string id="FILTER_SHOW_STATE_GRID_ALL" type="String">All</string>
+			<string id="FILTER_THREAD_MSG" type="String">Threads</string>
+			<string id="ERROR_SAVE_FILTER" type="String">Applied filter states are not saved</string>
+			<string id="ERROR_SUB_FILTER" type="String">Could not save sub-filter states. Select a state first.</string>
+			<string id="FILTER_LOG_STATE_MSG" type="String">Log only the following states</string>
+			<string id="FILTER_LOGGING_MSG" type="String">Logging Filter</string>
+			
+			<string id="TM1_OPS_CONSOLE_HEADER" type="String">IBM® Cognos® TM1® Operations Console</string>
+			<string id="WELCOME" type="String">Welcome</string>
+			<string id="HELP" type="String">Help</string>
+			<string id="CONSOLE" type="String">TM1 Console</string>
+			<string id="ICAS_CONSOLE" type="String">ICAS Console</string>
+			<string id="CLEAR_CONSOLE" type="String">Clear Console</string>
+			<string id="EVENT_VIEW" type="String">Event View</string>
+			<string id="EventView_MENU" type="String">Show Event View</string>
+			<string id="EXPAND" type="String">Expand</string>
+			<string id="COLLAPSE" type="String">Collapse</string>
+
+			<string id="INVALID_APPLICATION_MSG" type="String">Invalid application state: cannot start application more than one time.</string>
+			<string id="TM1_OPS_CONSOLE_MSG" type="String">IBM® Cognos® TM1® Operations Console</string> 
+	
+            <!-- //INVALID SESSION POPUP -->
+			<string id="INVALID_SESSION_TITLE" type="String">Invalid Session</string>
+			<string id="INVALID_SESSION_CONTENT" type="String">Either your session has expired or you have logged in from other location</string>
+			<string id="LOGOUT_CONFIRMATION" type="String">Navigating away from this page will end your TM1 Operations Console session.</string>
+			<string id="LOGOUT_ICAS_CONFIRMATION" type="String">Navigating away from this page will end your ICAS Operations Console session.</string>
+			
+			<string id="CONFIRM_DEL" type="String">Are you sure you want to delete?</string>
+			<string id="CONFIRM_STOP" type="String">Are you sure you want to stop?</string>
+			<string id="CONFIRM_START" type="String">Are you sure you want to start?</string>
+			<string id="CONFIRM_CANCEL" type="String">Are you sure you want to cancel?</string>
+			<string id="NAVIGATION_CONFIRMATION" type="String">There is unsaved data which will be lost, are you sure you want to navigate away?</string>
+			<string id="CONFIRM_DEL_TITLE" type="String">Confirm delete</string>
+			<string id="CONFIRM_STOP_TITLE" type="String">Confirm stop</string>
+			<string id="CONFIRM_CANCEL_TITLE" type="String">Confirm cancel</string>
+
+			<!--  Watchdog -->
+			<string id="WATCHDOG_STATUS" type="String">Watchdog Status</string>
+			<string id="FIELD" type="String">Field</string>
+            <string id="OPERATOR" type="String">Operator</string>
+            <string id="VERIFY_ADMIN_ACCESS_MSG" type="String">Please verify Admin access to manage watchdog for this server</string>
+            <string id="VERIFY" type="String">Verify</string>
+            <string id="VALUE_GREATER_THAN" type="String">Value should be greater than</string>          
+			<string id="LOG" type="String">Log</string>
+			<string id="ALERT" type="String">Alert</string>
+			<string id="RULE_ACTION_OVERRIDE" type="String">Rule might cause potential bulk kill operations. Defaulting to Log action</string>
+			<string id="RULE_NOT_SUPPORTED_ACTION" type="String">This action is not supported for the rule. Rule might potentially issue bulk kill operations</string>
+			
+			<!--  LOGGING SCHEDULER -->
+			
+			<string id="NO_LOGGING" type="String">No Logging</string>
+			<string id="AUTOMATED_LOGGING" type="String">Automated Logging</string>
+			<string id="SCHEDULED_LOGGING" type="String">Scheduled Logging</string>
+			<string id="NEW" type="String">New</string>
+			<string id="PENDING" type="String">Pending</string>
+			<string id="WAITING" type="String">Waiting</string>
+			<string id="RUNNING" type="String">Running</string>
+			<string id="NOT_SETUP" type="String">Not Setup</string>
+			<string id="NOT_RUNNING" type="String">Not Running</string>
+			<string id="DONE" type="String">Done</string>
+			<string id="NA" type="String">NA</string>
+			<string id="START_TIME" type="String">Start Time</string>
+			<string id="END_TIME" type="String">End Time</string>
+			<string id="ACTION" type="String">Action</string>
+			<string id="LOG_TYPE" type="String">Log Type</string>
+			<string id="LOG_SEPARATELY" type="String">Log Separately</string>
+			<string id="NO_LOG_SCHEDULED_MSG" type="String">No log is scheduled.</string>
+			<string id="SELECT_ROW_MSG" type="String">Please select a row.</string>
+			<string id="SCHEDULE_LOG_MSG" type="String">Schedule log</string>
+			<string id="LOG_DURATION_MSG" type="String">Log Duration</string>
+			<string id="SCHEDULE_NEW_LOG_TITLE" type="String">Schedule New Log</string>
+			<string id="SCHEDULE_EDIT_LOG_TITLE" type="String">Edit Scheduled Log</string>
+			<string id="SELECT_DATE_MSG" type="String">Select Date from the date field.</string>
+			<string id="INVALID_DATE_MSG" type="String">Invalid date.Select Date from the date field.</string>
+			<string id="INVALID_TIME_MSG" type="String">Invalid Time. Use HH:mm:ss format.</string>
+			<string id="INVALID_FREQUENCY" type="String">Frequency should be an integer</string>
+			<string id="LOG_STATUS" type="String">Log Status</string>
+			<string id="LOG_ENHANCED_STATUS" type="String">Log Enhanced Status</string>
+			<string id="LOG_SANDBOX" type="String">Log SandBox</string>
+			<string id="LOG_SB_QUEUE" type="String">Log SandBox Queue</string>
+			<string id="LOG_STATISTICS" type="String">Log Statistics</string>
+			<string id="LOG_SESSION_INFORMATION" type="String">Log Session Information</string>
+			<string id="START_DATE" type="String">Start Date </string>
+			<string id="STOP_DATE" type="String">Stop Date </string>
+			<string id="END_DATE" type="String">End Date </string>
+			<string id="FILTER" type="String">Filter</string>
+			
+			<string id="STOP_TIME" type="String">Stop Time </string>
+			<string id="SCHEDULE_TYPE" type="String">Schedule Type</string>
+			<string id="FREQUENCY" type="String">Frequency</string>
+			<string id="LOG_FREQUENCY" type="String">Log Frequency</string>
+			<string id="SELECT_LOG_MSG" type="String">Select log type. </string>
+			<string id="TIME_FORMAT" type="String">HH:mm:ss</string>		
+			<string id="CANNOT_EDIT_COMPLETEDSCHEDULE" type="String">Can not edit completed schedule</string>
+			
+			<string id="SCHEDULED_SELECTED_LOG_TYPE" type="String">Selected Log type</string>
+			<string id="ALREADY_SCHEDULED_FOR" type="String">is already scheduled for the</string>
+			<string id="SCHEDULED_BETWEEN" type="String">between</string>
+			<string id="SCHEDULED_TO" type="String">to</string>
+			<string id="OWNER" type="String">Owner</string>
+			<string id="VISIBILITY" type="String">Visibility</string>
+			<string id="FREQUENCY_TIP" type="String">Schedule recurs after (sec)</string>
+			<string id="OWNER_TIP" type="String">Owner of the schedule</string>
+			<string id="VISIBILITY_TIP" type="String">Private to the owner or Publicly available for use by other users</string>
+
+			<!-- SERVER HEARTBEAT -->
+			<string id="IS_STARTING_MSG" type="String">Server is starting</string>
+			<string id="IS_STOPPING_MSG" type="String">Server is shutting down</string>
+			<string id="IS_OFFLINE_MSG" type="String">Server is offline</string>
+			<string id="IS_BUSY_MSG" type="String"> Server is busy</string>
+			<string id="IS_IN_BLM_MSG" type="String">Server is in Bulk Load Mode</string>
+			<string id="IS_ENTERING_BLM_MSG" type="String">Server is entering Bulk Load Mode</string>
+			<string id="IS_NA_MSG" type="String">Unable to reach the server </string>
+			<string id="TIMEOUT_MSG" type="String">has timed out </string>
+			<string id="FOR_MSG" type="String">for </string>
+			<string id="TOP_STATUS_MSG" type="String"> top status</string>
+			<string id="SB_STATUS_MSG" type="String"> sandbox status</string>
+			<string id="SB_QUEUE_STATUS_MSG" type="String"> sandbox queue status</string>
+			<string id="THREAD_POOL_STATUS_MSG" type="String"> thread pooled status</string>
+			<string id="NOT_SUPPORTED_MSG" type="String"> NA</string>
+			<string id="LOADING_MSG" type="String"> Loading</string>
+			<string id="NO_RESPONSE_MSG" type="String"> No response received from server</string>
+			<string id="HEALTH_CHECK_MSG" type="String"> Health Check </string>
+			<string id="NO_OF_THREADS_MSG" type="String"> Number of threads </string>
+			<string id="NO_OF_WAIT_THREADS_MSG" type="String"> Number of wait threads </string>
+			<string id="NO_DATA_MSG" type="String"> No data to display </string>
+			<string id="DATA_NOT_RETRIEVED_MSG" type="String"> Data could not be retrieved</string>
+			<string id="SERVER_BUSY_NW_ISSUE_MSG" type="String"> Either the server is busy or there was a network issue</string>
+			<string id="THREAD_POOLED_MSG" type="String">Server is running in thread pooled mode  </string>
+			
+			
+			
+			<string id="FILE_UPLOADER_ERROR" type="String"> Error in uploading file </string>
+			<string id="FILE_UPLOAD_SUCCESS_MSG" type="String"> File uploaded successfully </string>
+			<string id="SELECT_FILE_MSG" type="String">Select the file to upload</string>
+			<string id="INCORRECT_TIMEOUT_MSG" type="String">Timeout value should be less than or equal to the refresh value </string>			
+			<string id="INCORRECT__MEM_STAT_TIMEOUT_MSG" type="String">Memory Statistics Timeout value should be less than or equal to the Memory Statistics Refresh value </string>
+			<string id="UNSUPPORTED_MSG" type="String">Unsupported</string>
+			<string id="ONLINE_MSG" type="String">Online</string>
+			<string id="STARTING_MSG" type="String">Starting</string>
+			<string id="STOPPING_MSG" type="String">Stopping</string>
+			<string id="BLM_MSG" type="String">Bulk Load Mode</string>
+			<string id="ENTER_BLM_MSG" type="String">Entering Bulk Load Mode</string>
+			<string id="BUSY_MSG" type="String">Busy</string>
+			<string id="OFFLINE_MSG" type="String">Offline</string>
+			<string id="NO_ACCESS_MSG" type="String">No permission to download this file</string>
+			<string id="PERMISSION_ERROR" type="String">No permission to perform this action </string>
+			<string id="UNKNOWN_ERROR" type="String">Unknown Error</string>
+			
+			<string id="IP" type="String">IP</string>	
+			<string id="CONTEXT" type="String">Context</string>	
+			<string id="APP_CONTEXT" type="String">Planning Service Web-application</string>
+			<string id="PORT" type="String">Port Number</string>	
+			<string id="IS_INVALID" type="String">is invalid</string>	
+			<string id="TOMCAT_STATUS_MSG" type="String">Tomcat Statistics</string>	
+			<string id="SESSIONS_INFO" type="String">Sessions Information</string>
+			<string id="PROPERTY" type="String">Property</string>
+			<string id="VALUE" type="String">Value</string>				
+			
+			
+			<!-- Server Logging -->
+			
+			<string id="VIEW_MESSAGE_LOG" type="String">View Message Log</string>	
+			<string id="VIEW_TRANSACTION_LOG" type="String">View Transaction Log</string>	
+			<string id="VIEW_AUDIT_LOG" type="String">View Audit Log</string>
+			<string id="TRANSACTION_LOG_QUERY" type="String">Transaction Log Query</string>	
+			<string id="MESSAGE_LOG_QUERY" type="String">Message Log Query</string>
+			<string id="AUDIT_LOG_QUERY" type="String">Audit Log Query</string>			
+			<string id="CUBE_FILTER" type="String">Cube Filter</string>
+			<string id="USER_FILTER" type="String">User Filter</string>
+			<string id="FLAG_FILTER" type="String">Flag Filter</string>
+			<string id="THREAD_FILTER" type="String">Thread Filter</string>
+			<string id="LEVEL_FILTER" type="String">Level Filter</string>
+			<string id="LOGGER_FILTER" type="String">Logger Filter</string>
+			<string id="EXPORT" type="String">Export</string>
+			<string id="CHANGE_SET" type="String">Change Set</string>
+			<string id="LOG_TIME" type="String">Log Time</string>
+			<string id="REPLICATION_TIME" type="String">Replication Time</string>
+			<string id="OLD_VALUE" type="String">Old Value</string>
+			<string id="NEW_VALUE" type="String">New Value</string>
+			<string id="CUBES" type="String">Cubes</string>
+			<string id="ELEMENTS" type="String">Elements</string>
+			<string id="THREAD_DATA" type="String">Thread Data</string>
+			<string id="DEBUG_LEVEL" type="String">Debug Level</string>
+			<string id="LOGGER" type="String">Logger</string>
+			<string id="OBJECT_TYPE" type="String">Object Type</string>
+			<string id="OBJECT_NAME" type="String">Object Name</string>
+			<string id="OWNER_TYPE" type="String">Owner Type</string>
+			<string id="OWNER_NAME" type="String">Owner Name</string>
+			<string id="EVENT_TYPE" type="String">Event Type</string>
+			<string id="EVENT_CODE" type="String">Event Code</string>
+			<string id="EVENT_DETAIL" type="String">Detail</string>
+			<string id="VIEW_DETAIL" type="String">View Detail...</string>
+			<string id="PROCESS_LOG_NAME" type="String">Process Log Name</string>
+			<string id="VIEW_PROCESS_LOG" type="String">View Process Log...</string>
+			<string id="PROCESS_LOG" type="String">Process Log</string>
+			<string id="EXPORT_ACTION" type="String">Export...</string>
+			<string id="BACK_OUT" type="String">Back Out</string>
+			<string id="TRANSACTION_BACKOUT_MSG" type="String">{0} change(s) applied with {1} error(s). See log for details.</string>
+			
+			<string id="ITEM_OBJECT" type="String">Object</string>
+			<string id="ITEM_SYSTEM" type="String">System</string>
+			<string id="ITEM_UNSET" type="String">Not Set</string>
+			<string id="ITEM_USER" type="String">User</string>
+			<string id="ITEM_CHOREOWNER" type="String">Chore Owner</string>
+			<string id="ITEM_APPLICATION" type="String">Application</string>
+			<string id="ITEM_CHORE" type="String">Chore</string>
+			<string id="ITEM_CLIENT" type="String">Client</string>
+			<string id="ITEM_CUBE" type="String">Cube</string>
+			<string id="ITEM_DIMENSION" type="String">Dimension</string>
+			<string id="ITEM_ELEMENT" type="String">Element</string>
+			<string id="ITEM_GROUP" type="String">Group</string>
+			<string id="ITEM_PROCESS" type="String">Process</string>
+			<string id="ITEM_SUBSET" type="String">Subset</string>
+			<string id="ITEM_VIEW" type="String">View</string>
+				
+							
+			<!-- Session Information -->
+			
+			<string id="USER_NAME" type="String">User Name</string>
+			<string id="SESSION_ID" type="String">Session ID</string>
+			<string id="USER_ID" type="String">User ID</string>
+			<string id="CURRENT_TM1_SERVER" type="String">Current TM1 Server</string>
+			<string id="LAST_ACCESS" type="String">Last Access</string>
+			<string id="VIEW_APP_SESSION_INFO" type="String">View Sessions Information</string>
+			<string id="NO_WEBAPP_RUNNING" type="String">No Web-application deployed</string>
+			<string id="DEPLOYED_WEBAPPS" type="String">Deployed Web-applications</string>	
+			<string id="ACTIVE_SESSIONS" type="String">Total number of active sessions</string>
+			<string id="END_SESSION" type="String">End Session</string>	
+			
+			<!--  Tomcat Info -->
+			<string id="MaxHeapSize" type="String">Memory Max Heap Size</string>	
+			<string id="MaxHeapSizeLimit" type="String">Memory Max Heap Size Limit</string>	
+			<string id="MinHeapSize" type="String">Memory Min Heap Size</string>
+			<string id="Arch" type="String">OS Architecture</string>
+			<string id="FreePhysicalMemorySize" type="String">Free Physical Memory Size</string>
+			<string id="OSName" type="String">OS Name</string>
+			<string id="ProcessCpuTime" type="String">Process Cpu Time</string>
+			<string id="ProcessPhysicalMemorySize" type="String">Process Physical Memory Size</string>
+			<string id="TotalPhysicalMemory" type="String">Total Physical Memory</string>
+			<string id="Version" type="String">OS Version</string>
+			<string id="VmName" type="String">VM Name</string>
+			<string id="StartTime" type="String">VM Start time</string>
+			<string id="Uptime" type="String">VM Uptime</string>
+			
+			<!-- Memory Statistics information -->
+			<string id="MEMORY_STATISTICS_MSG" type="String">Memory Statistics</string>
+			<string id="MEMORY_USED_MSG" type="String">Memory Used</string>
+			<string id="GARBAGE_MEMORY_MSG" type="String">Garbage Memory</string>
+			<string id="START_PERF_MON" type="String">Start Performance Monitor</string>
+			<string id="STOP_PERF_MON" type="String">Stop Performance Monitor</string>
+			<string id="PERF_MON_STARTED" type="String">Performance Monitoring is started </string>
+			<string id="PERF_MON_STOPPED" type="String">Performance Monitoring is stopped </string>
+			
+			<!-- User State Persistence -->
+			
+			<string id="CLEAR_MONITOR_STATE" type="String">Clear Monitor State</string>
+			<string id="LOAD_MONITOR_STATE" type="String">Load Monitor State</string>
+			<string id="SAVE_MONITOR_STATE" type="String">Save Monitor State</string>
+			<string id="CLEAR_MONITOR_STATE_SUCCESS" type="String">Monitor cleared successfully</string>
+			<string id="LOAD_MONITOR_STATE_SUCCESS" type="String">Monitor state saved by you is loaded successfully</string>
+			<string id="SAVE_MONITOR_STATE_SUCCESS" type="String">Current Monitor State saved successfully</string>
+			<string id="CLEAR_MONITOR_STATE_ERROR" type="String">Unable to clear Monitor</string>
+			<string id="LOAD_MONITOR_STATE_ERROR" type="String">Unable to load Monitor state saved by you</string>
+			<string id="SAVE_MONITOR_STATE_ERROR" type="String">Unable to save Monitor state</string>
+			<string id="CONFIRM_LOGOUT_TITLE" type="String">Confirm Logout</string>
+			<string id="CONFIRM_LOGOUT" type="String">Are you sure you want to Logout?</string>
+			<string id="CONFIRM_PERSISTENCE_MSG" type="String">Persist Current Monitor State</string>
+			<string id="YES" type="String">Yes</string>
+			<string id="NO" type="String">No</string>
+			<string id="CONFIGURATION_MODE" type="String">Configuration Mode</string>
+			<string id="MONITOR_MODE" type="String">Monitor Mode</string>
+			<string id="ADD_TAB" type="String">Add Tab</string>
+			
+			<!--  Dialog Instructions Text -->
+			<string id="FILE_UPLOAD_INST" type="String">To use a saved configuration file, browse to its location and click Upload.</string>
+			<string id="ADD_OPSGROUP_INST" type="String">Enter a group name for the servers being monitored.</string>
+			<string id="LOGTYPE_DOWNLOAD_INST" type="String">Select the log type of file you want to download.</string>
+			<string id="NEW_LOG_SCHEDULE_INST" type="String">Define the parameters of the log file you want to create.</string>
+			<string id="ADD_ADMINHOST_INST" type="String">Enter the IP address or name of the adminhost that hosts the server being monitored.</string>
+			<string id="ADD_APPSERVER_INST" type="String">Enter the IP address for the Application Server you want to monitor.</string>
+			<string id="ADD_TM1SERVER_INST" type="String">Enter the name of the TM1 Server you want to monitor.</string>			
+			<string id="CONFIG_TM1SERVER_INST" type="String">Enter the configuration parameters for the TM1 Server.</string>
+			<string id="CONFIG_APPSERVER_INST" type="String">Enter the configuration parameters of the Application Server.</string>						
+			<string id="NEW_WATCHDOG_RULE_INST" type="String">Define the rules of the watchdog you want to apply.</string>			
+			<string id="STATES_FILTER_INST" type="String">Select the states and threads you want to use when monitoring this TM1 Server.</string>
+			<string id="DOWNLOAD_FILE_INST" type="String">Select the file to download</string>
+            <string id="VIEW_FILE_INST" type="String">Select the file to view</string>
+            <string id="DELETE_OPS_GROUP_INST" type="String">All the added monitoring elements and their corresponding data will be deleted.</string>
+            <string id="DELETE_ADMIN_SVR_INST" type="String">All the added servers of this host and their corresponding data will be deleted.</string>			
+			<string id="VERIFY_ADMIN_ACCESS_INST" type="String">These credentials will be used to perform admin operations against the server</string>
+
+			<!-- Download Grid -->
+			<string id="LOG_CONTENT" type="String">Log Content</string>
+			<string id="LAST_CHANGED" type="String">Last Changed Date</string>
+			<string id="FILE_NAME" type="String">File Name</string>
+			<string id="LOG_TO_DISK" type="String">Log to disk</string>
+			
+			<!-- Charts -->
+			<string id="THREAD_DETAILS" type="String">Thread Details Graph</string>
+			<string id="MEMORY_USAGE_DETAILS" type="String">Memory Usage Graph</string>	
+			<string id="THREAD_SUMMARY" type="String">Thread Summary Graph</string>	
+			<string id="STATUS_HISTORY" type="String">Status History Graph</string>	
+			<string id="THREAD_STATUS" type="String">Thread Status</string>
+			<string id="SERVER_NAME" type="String">Server Name</string>
+			<string id="SERVER_ENTER_TIME" type="String">Server Enter Time</string>
+			<string id="SERVER_LEAVE_TIME" type="String">Server Leave Time</string>
+			<string id="SERVER_STATE" type="String">Server State</string>
+			<string id="USERS" type="String">Users</string>
+			<string id="NO_DATA" type="String">No Data Available</string>
+			<string id="TOTAL" type="String">Total</string>
+			<string id="TOP_FIVE" type="String">Top 5</string>
+			<string id="SELECT_CUBES" type="String">Select Cubes</string>
+			<string id="SELECT_SERVERS" type="String">Select Server(s)</string>
+			<string id="SELECT_STATES" type="String">Select State(s)</string>
+			<string id="STATES" type="String">States</string>
+			<string id="STATE_ENTRY" type="String">State entry at</string>
+			<string id="STATE_EXIT" type="String">State exit at</string>
+			<string id="PHYSICAL_MEMORY_COMPARISON" type="String">Physical Memory Graph</string>
+			<string id="SESSION_COUNT_SUMMARY" type="String">Session Graph</string>
+			<string id="ALL" type="String">All</string>
+			<string id="FREE_PHYSICAL_MEMORY" type="String">Free Memory</string>
+			<string id="USED_PHYSICAL_MEMORY" type="String">Used Memory</string>
+			
+			<!-- Process and chores grid -->
+			<string id="CURRENT_STATE" type="String">Current State</string>
+			<string id="COMPLETION_STATUS" type="String">Completion Status</string>
+			<string id="LAST_START_TIME" type="String">Last Start Time</string>
+			<string id="LAST_END_TIME" type="String">Last End Time</string>
+			<string id="LAST_DURATION" type="String">Last Duration</string>
+			<string id="NEXT_ACTIVATION_TIME" type="String">Next Activation Time</string>
+			<string id="CURRENT_PROCESS" type="String">Current Process</string>
+			
+			<!-- Disconnect user feature -->
+			<string id="DISCONNECT_USER" type="String">Disconnect User</string>
+			<string id="CONFIRM_DISCONNECT_USER_MSG" type="String">Are you sure you want to disconnect the user: </string>
+			<string id="USER_DISCONNECTED_MSG" type="String">Request to disconnect the selected user has been submitted.</string>
+			<string id="DISCONNECT_USER_UNSUCCESSFUL_MSG" type="String">Sorry, user could not be disconnected.</string>
+		</section>
+		<section name="CMR" usage="common:CommonMessages_Error" type="UI">                                 
+            <string id="INVALID_APPLICATION_MSG" type="String">Invalid application state: cannot start application more than one time.</string>
+            <string id="INVALID_LOGON_MSG" type="String">You have not been granted access to Operations Console.  Please contact your system administrator.</string>            
+            <string id="RESET" type="String">Reset_error</string>
+            <string id="SERVER_UNAVAILABLE_MSG" type="String">Could not connect to server</string>
+            <string id="UNAUTHORIZED_MSG" type="String">You are not authorised to view this page.</string>
+            <string id="INVALID_NAME_MSG" type="String">Invalid name. Please enter the name again</string>
+            <string id="INCORRECT_PASSWORD_MSG" type="String">Wrong password</string>
+            <string id="DELETE_UNSUCCESSFUL_MSG" type="String">User could not be deleted</string>
+            <string id="CANCEL" type="String">Cancel</string>
+            <string id="FAILURE" type="String">failure</string>
+            <string id="ERROR" type="String">Error</string>
+            <string id="OPS_CONFIG_ERROR" type="String">Error in parsing OpsConfig.xml</string>
+            <string id="NO_ADMINHOST_MSG" type="String">No adminhost specified in OpsConfig.xml</string>
+            <string id="NO_SERVER_MSG" type="String">No server specified in OpsConfig.xml</string>
+            <string id="NO_GROUP_MSG" type="String">No group specified in OpsConfig.xml</string>
+            <string id="SERVER_NOT_CONTACTIBLE" type="String">None of the servers are contactible</string>
+            <string id="INVALID_MSG" type="String">Invalid</string>
+            <string id="STOP_DATE_LESSER_THAN_START" type="String">Stop date should not be less than start date</string>
+            <string id="STOP_TIME_LESSER_THAN_START" type="String"> Stop time should not be less than start time</string>
+            <string id="STOP_TIME_LESSER_THAN_CURRENT" type="String"> Start time should not be less than current time</string>
+            <string id="LOGGER_NOT_STOPPED_MSG" type="String"> Logger could not be stopped</string>
+			<string id="SELECT_DATETIME_MSG" type="String">Select required date/time. </string>
+			<string id="GRID_ERROR_MSG" type="String">An error occurred in fetching the values </string>
+			<!-- Errors while establishing a TM1 Server connection -->
+			<string id="SYSTEM_SERVER_CLIENT_NOT_FOUND" type="String">Client name does not exist on the server </string>
+			<string id="SYSTEM_SERVER_CLIENT_PASSWORD_INCORRECT" type="String">Client's password is invalid </string>
+			<string id="SYSTEM_SERVER_CONNECTION_FAILED" type="String">An error occurred in fetching the values </string>
+			<string id="SYSTEM_SERVER_NOT_FOUND" type="String">The specified server could not be reached</string>
+			<string id="SYSTEM_SERVER_OUT_OF_MEMORY" type="String">The specified server is out of memory</string>
+			<string id="SYSTEM_SERVER_IN_BLM" type="String">The specified server is in Bulk Load Mode </string>
+			<string id="CLIENT_ALREADY_CONNECTED" type="String">Client is already connected</string>
+			<string id="SYSTEM_SERVER_CONNECT_FAILED" type="String">An error occurred while connecting to the specified server</string>
+			<string id="SYSTEM_SERVER_CLIENT_CONNECT_FAILED" type="String">The client is unable to connect to  the specified server</string>
+			<string id="SYSTEM_SERVER_CONNECTION_INVALID" type="String">The connection to the specified server is invalid</string>
+			<string id="SYSTEM_SERVER_MAX_CONNECTIONS_EXCEEDED" type="String">The maximum number of allowed connections have been exceeded</string>
+			<string id="INTEGRATED_SECURITY_MODE_EXCEPTION" type="String">Integrated security mode is currently unsupported</string>
+			<string id="NAMESPACE_NOT_SPECIFIED" type="String">Namespace has not been specified</string>
+			<string id="CLIENT_NOT_SPECIFIED" type="String">Client has not been specified</string>
+			<string id="SYSTEM_SERVER_INCOMPATIBLE_VERSION" type="String">The TM1 server is incompatible because of a version mismatch</string>
+			
+			<string id="ERROR_IN_AUTHENTICATION" type="String">An error occurred in authentication </string>
+			<string id="MAX_LOGIN_ATTEMPTS_EXCEEDED" type="String">The Maximum number of Login attempts has been exceeded</string>
+			<string id="ENHANCED_STATUS_UNSUPPORTED" type="String">Enhanced Status is not supported for this version of the TM1 Server</string>
+			<string id="SERVER_VERSION_CHECK_FAILED" type="String">TM1 server version could not be verified</string>
+			<string id="GROUP_NOT_EXISTS" type="String">The specified group does not exist on the server </string>
+			<string id="NO_ADMIN_RIGHTS" type="String">The specified client does not have admin rights </string>
+			<string id="CONNECTION_NOT_ESTABLISHED" type="String">The specified server could not be contacted</string>
+			<string id="OPS_CONFIG_SERVERS_NOT_REACHABLE" type="String">None of the servers mentioned in OpsConfig.xml are contactible</string>
+			<string id="NON_XML_FILE" type="String">Choose a file with .xml extension</string>
+			<string id="UPLOAD_FILE_SELECT" type="String">Select a file to upload</string>
+			<string id="UPLOAD_ERROR" type="String">Error in uploading file</string>
+			<string id="UPLOAD_PATH_ERROR" type="String">System could not find the path specified</string>
+			<string id="REPEATED_DATABASEINSTANCE" type="String">Repeated database instance(s) in the file</string>
+			<string id="REPEATED_ADMINHOST" type="String">Repeated adminhost(s) in the file</string>
+			<string id="REPEATED_SERVERNAME" type="String">Repeated TM1server(s) in the file</string>
+			<string id="NONCONFORMANT_FILE" type="String">The xml file is not conformant</string>
+			<string id="SAVE_FAILED" type="String">Could not save the details</string>
+			<string id="ADD_FAILURE" type="String">Add failed</string>
+			<string id="APP_SERVER_UNREACHABLE" type="String">Application Server is not reachable</string>
+			<string id="APP_SERVER_NOT_CONFIGURED" type="String">Application Server is not configured</string>
+			
+			<!--  Performance Monitoring Errors -->
+			<string id="PERF_MON_NOT_STARTED" type="String">Performance Monitoring could not be started</string>
+			<string id="PERF_MON_NOT_STOPPED" type="String">Performance Monitoring could not be stopped</string>
+			<string id="PERF_MON_ERROR" type="String">Performance Monitoring Error </string>
+			
+			<!--  Monitor config -->
+			<string id="MONITOR_CONFIG_RETRIEVAL_ERROR" type="String">An error occurred retrieving monitoring configuration</string>
+			<string id="MONITOR_CONFIG_UPDATE_ERROR" type="String">An error occurred updating monitoring configuration</string>
+			<!--  General Errors -->
+			<string id="SERVER_NOT_FOUND" type="String">Specified Server was not found</string>
+			<!--  Server Logs -->	
+			<string id="SELECT_DETAIL_ROW_MSG" type="String">Select a single row.</string>
+			
+
+					
+		</section>
+	</component>
+</stringTable>
+<!-- UFRID:72274822-3A0D-45BC-B619-5D177A7EF9A8 -->
