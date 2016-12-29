@@ -604,7 +604,7 @@ restricted by GSA ADP Schedule Contract with IBM Corp.
 			<string id="RELATIONAL_DB_NAME_STR" type="String">Database</string>
 			<string id="BUILD" type="String">Build </string>
 			<string id="PA_VERSION" type="String">IBM Planning Analytics Version 2.0</string>
-			<string id="EXPORT_NUM_ROWS" type="String">rows</string>
+			<string id="EXPORT_NUM_ROWS" type="String">rowsupdate</string>
 		</section>
 	</component>
 </stringTable>
