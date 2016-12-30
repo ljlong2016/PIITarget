@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed Materials - Property of IBM
+
+IBM Cognos Products: tm1web
+
+(C) Copyright IBM Corp. 2007-2013
+
+US Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../CCLMessageFile.xsd" localization="Product Locale">
+	<component name="DJO" usage="TM1 Web dojo messages">
+		<section name="CMN" usage="common:CommonMessages" type="UI">
+		
+			<!-- About -->
+			<string id="ABOUT_TM1WEB" type="String">Licensed Materials - Property of IBM Corp. © Copyright IBM Corporation and other(s) 2007, 2016. IBM、IBM ロゴ、ibm.com、Cognos、および TM1 は、世界の多くの国で登録された International Business Machines Corporation の商標です。現時点での IBM の商標リストについては、www.ibm.com/legal/copytrade.shtml をご覧ください。   他の製品名およびサービス名等は、それぞれ IBM または各社の商標である場合があります。この「プログラム」は「プログラム」に同梱のご使用条件に基づき使用許諾されます。この「プログラム」のご使用条件は、「プログラム」のディレクトリー・フォルダーまたはライブラリー内に「License」または「Non_IBM_License」として含まれるか、または印刷物として提供されます。「プログラム」を使用する前にこの使用条件をお読みください。「プログラム」をご使用になることで、お客様はこれらの条件に同意されたものとみなされます。</string>
+			<string id="ABOUT_PRODUCT_NAME" type="String">IBM Cognos TM1 Web について</string>
+			
+			<!-- Contributor Splash -->
+			<string id="CONTRIBUTOR_COPYRIGHT" type="String">Licensed Materials - Property of IBM Corp. © Copyright IBM Corporation and other(s) 2011, 2016. IBM、IBM ロゴ、ibm.com、Cognos、および TM1 は、世界の多くの国で登録された International Business Machines Corporation の商標です。現時点での IBM の商標リストについては、www.ibm.com/legal/copytrade.shtml をご覧ください。   他の製品名およびサービス名等は、それぞれ IBM または各社の商標である場合があります。この「プログラム」は「プログラム」に同梱のご使用条件に基づき使用許諾されます。この「プログラム」のご使用条件は、「プログラム」のディレクトリー・フォルダーまたはライブラリー内に「License」または「Non_IBM_License」として含まれるか、または印刷物として提供されます。「プログラム」を使用する前にこの使用条件をお読みください。「プログラム」をご使用になることで、お客様はこれらの条件に同意されたものとみなされます。</string>
+			<string id="CONTRIBUTOR_VERSION" type="String">バージョン 11.0</string>
+			
+			<!-- Cube View Navigation Bar -->
+			<string id="TOP_STR" type="String">先頭</string>
+			<string id="TOP_TOOLTIP_STR" type="String">この列の先頭ページ</string>
+			<string id="BOTTOM_STR" type="String">最下部</string>
+			<string id="BOTTOM_TOOLTIP_STR" type="String">この列の最後のページ</string>
+			<string id="PAGE_UP_STR" type="String">前ページ</string>
+			<string id="PAGE_UP_TOOLTIP_STR" type="String">前ページへ</string>
+			<string id="PAGE_DOWN_STR" type="String">次ページ</string>
+			<string id="PAGE_DOWN_TOOLTIP_STR" type="String">次ページへ</string>
+			<string id="PREVIOUS_PAGE_TOOLTIP_STR" type="String">前のページ</string>
+			<string id="NEXT_PAGE_TOOLTIP_STR" type="String">次のページ</string>
+			<string id="DISPLAY_PAGES_TOOLTIP_STR" type="String">ページを表示</string>
+			<string id="PAGE_STR" type="String">ページを表示</string>
+			
+			<!-- Dimension Drop Panel -->
+			<string id="DIMENSION_DROP_PANEL_DRAG_THIS" type="String">ドラッグしてディメンション '{0}' を別の場所に移動します。</string>
+			<string id="DIMENSION_DROP_PANEL_DIM_STR" type="String">ディメンション {0}</string>
+			<string id="DIMENSION_DROP_PANEL_OPEN_SUBSET_EDITOR_STR" type="String">サブセット・エディターを開く</string>
+			
+			<!-- Column Dimension Drop Panel -->
+			<string id="COLUMN_DIMENSION_DROP_PANEL_STR" type="String">列</string>
+			<string id="COLUMN_DIMENSION_DROP_PANEL_TOOLTIP_STR" type="String">列ディメンションのドロップ領域</string>
+			
+			<!-- Row Dimension Drop Panel -->
+			<string id="ROW_DIMENSION_DROP_PANEL_STR" type="String">行</string>
+			<string id="ROW_DIMENSION_DROP_PANEL_TOOLTIP_STR" type="String">行ディメンションのドロップ領域</string>
+			
+			<!-- Title Dimension Drop Panel -->
+			<string id="TITLE_DIMENSION_DROP_PANEL_STR" type="String">コンテキスト</string>
+			<string id="TITLE_DIMENSION_DROP_PANEL_TOOLTIP_STR" type="String">コンテキスト・ディメンションのドロップ領域</string>
+			
+			<!-- Cube View Header and Top or Bottom Dialog -->
+			<string id="EXPAND_TOOLTIP_STR" type="String">展開</string>
+			<string id="COLLAPSE_TOOLTIP_STR" type="String">縮小</string>
+			<string id="NO_TOP_OR_BOTTOM_STR" type="String">上位または下位なし</string>
+			<string id="CUSTOM_STR" type="String">カスタム...</string>
+			<string id="TOP_OR_BOTTOM_STR" type="String">上位または下位</string>
+			<string id="NUMBER_OF_ITEMS_STR" type="String">アイテム数</string>
+
+			<!-- Cube Viewer Export -->
+			<string id="EXPORT_ROWS_CURRENT_PAGE" type="String">現在のページの行をエクスポートします</string>
+			<string id="EXPORT_ROWS_BEGINNING" type="String">先頭から現在のページまでの行をエクスポートします</string>
+			<string id="EXPORT_ROWS_VIEW" type="String">ビューの行をすべてエクスポートします</string>
+			<string id="EXPORT_PAGES_LABEL" type="String">エクスポートする行数</string>
+			<string id="EXPORT_DIMENSIONS_LABEL" type="String">エクスポートするタイトル・ディメンション</string>
+			<string id="EXPORT_AUTO_FIT_LABEL" type="String">行の高さの自動適合</string>
+			<string id="EXPORT_AUTO_FIT_ROW_HEIGHT_LABEL" type="String">オートフィット</string>
+			<string id="MAX_EXPORT_SHEET_NUM_EXCEEDED" type="String">エクスポートされるシート数が許容されるシートの最大数 {0} を超えています。選択を変更してシート数を減らしてください。</string>
+			<string id="TOTAL_SHEETS_LABEL" type="String">エクスポートするシート数</string>
+			<string id="EXPORT_TITLE_LABEL" type="String">エクスポート</string>
+			<string id="CANCEL_EXPORT" type="String">エクスポートのキャンセル</string>
+			
+			<!--  Impact Diagram -->
+			<!--  Status -->
+			<string id="METRIC_DIAGRAM_POOR" type="String">悪い</string>
+			<string id="METRIC_DIAGRAM_AVERAGE" type="String">平均</string>
+			<string id="METRIC_DIAGRAM_EXCELLENT" type="String">大変良い</string>
+			<string id="METRIC_DIAGRAM_METRICS" type="String">評価指標</string>
+			<string id="METRIC_DIAGRAM_NOT_LIVE" type="String">評価指標が無効です</string>
+			<!--Trend -->
+			<string id="METRIC_DIAGRAM_WORSE" type="String">悪化</string>
+			<string id="METRIC_DIAGRAM_NO_CHANGE" type="String">変化なし</string>
+			<string id="METRIC_DIAGRAM_BETTER" type="String">向上</string>
+			<string id="METRIC_DIAGRAM_EVEN" type="String">均等</string>
+			<!-- Edit Info -->
+			<string id="METRIC_DIAGRAM_INCOMPLETE" type="String">未完了</string>
+	
+			<!-- Common Messages -->
+			<string id="ABOUT_HELP_STR" type="String">TM1 Application Web について</string>
+			<string id="m_cultureCode" type="String">ja</string>
+			<string id="OPEN_STR" type="String">開く</string>
+			<string id="CLOSE_STR" type="String">閉じる</string>
+			<string id="CLOSE_ALL_STR" type="String">すべてを閉じる</string>
+			<string id="CLOSE_OTHERS_STR" type="String">その他を閉じる</string>
+			
+			<!-- Right click context menus on cells -->
+			<string id="COPY_STR" type="String">コピー</string>
+			<string id="PASTE_STR" type="String">貼り付け</string>
+			<string id="DATA_SPREAD_STR" type="String">データ・スプレッド</string>
+			<string id="HOLDS_STR" type="String">保持</string>
+			<string id="DRILL_STR" type="String">ドリル</string>
+			<string id="PROPORTIONAL_SPREAD_STR" type="String">比例配分...</string>
+			<string id="EQUAL_SPREAD_STR" type="String">等配分...</string>
+			<string id="REPEAT_SPREAD_STR" type="String">反復...</string>
+			<string id="CLEAR_SPREAD_STR" type="String">クリア...</string>
+			<string id="PC_SPREAD_STR" type="String">変動率...</string>
+			<string id="SL_SPREAD_STR" type="String">直線...</string>
+			<string id="GP_SPREAD_STR" type="String">成長率...</string>
+			<string id="RP_SPREAD_STR" type="String">相対比例配分...</string>
+			<string id="RP_ADJ_SPREAD_STR" type="String">相対割合調整...</string>
+			<string id="RL_SPREAD_STR" type="String">リーフの反復...</string>
+			<string id="EL_SPREAD_STR" type="String">リーフの等配分...</string>
+			<string id="HL_SPREAD_STR" type="String">リーフの保持</string>
+			<string id="HC_SPREAD_STR" type="String">集約の保持</string>
+			<string id="RLH_SPREAD_STR" type="String">リーフ保持の解放</string>
+			<string id="RC_SPREAD_STR" type="String">集約の解放</string>
+			<string id="RA_SPREAD_STR" type="String">すべての保持の解放</string>
+			
+			
+			<!--  Spread Dialog Descriptions -->
+			<string id="SPREAD_DESC_PROP_STR" type="String">指定値を、既存のセル値に比例してセルに分配します。</string>
+			<string id="SPREAD_DESC_EQ_STR" type="String">指定値をビュー内のセル間で均等に分配します。</string>
+			<string id="SPREAD_DESC_EQ_LEAVES_STR" type="String">指定値を、集約セルのすべてのリーフに均等に分配します。指定値を集約のすべてのリーフに配分するか、またはゼロ以外の値を保持しているリーフのみに配分するかを選択できます。</string>
+			<string id="SPREAD_DESC_RPT_STR" type="String">指定値を、ビュー内のセル間で反復します。</string>
+			<string id="SPREAD_DESC_RPT_LEAVES_STR" type="String">指定値を、集約のリーフにコピーします。集約のすべてのリーフに値をコピーするか、ゼロ以外の値を保持しているリーフのみに値をコピーするかを選択できます。</string>
+			<string id="SPREAD_DESC_PCT_CHANGE_STR" type="String">現行セルの値を、指定したパーセンテージで乗算します。この乗算の積を既存のセルの値と置換、既存のセルの値に加算、または既存のセルの値から減算できます。</string>
+			<string id="SPREAD_DESC_STR_LINE_STR" type="String">キューブ・セルに、指定した 2 点間の線形補間によるデータを取り込みます。例えば、開始値が 100 で終了値が 200 の場合、中間値は 150 になります。</string>
+			<string id="SPREAD_DESC_REL_PROP_STR" type="String">集約のリーフに、参照セルのリーフに比例する値を配分します。参照セルが入っているセルは、分配を開始するキューブ、あるいは別のキューブです。</string>
+			<string id="SPREAD_DESC_REL_PCT_ADJ_STR" type="String">参照セルのリーフにパーセンテージ調整を適用することで、集約のリーフに値を配分します。</string>
+			<string id="SPREAD_DESC_STRT_LINE_STR" type="String">指定値を、既存のセル値に比例してセルに分配します。</string>
+			<string id="SPREAD_DESC_PCT_GROWTH_STR" type="String">初期値を開始点として使用し、指定された率で選択された範囲のセルの値を連続的に増加させます。</string>
+			<string id="SPREAD_DESC_CLEAR_STR" type="String">ビュー内のセルから値を消去します。親セルに「消去」メソッドを適用すると、その親のすべての子はゼロに設定されます。</string>
+			
+			<!-- Action Menu > Export submenu items -->
+			<string id="SLICE_TO_EXCEL_STR" type="String">Excel にスライス</string>
+			<string id="SNAP_TO_EXCEL_STR" type="String">Excel にスナップショット</string>
+			<string id="EXPORT_TO_PDF_STR" type="String">PDF にエクスポート</string>
+			
+
+			<string id="LOGOUT_CHECK" type="String">ナビゲートすると TM1 Web セッションが終了します。</string>
+			
+			<!-- Delete node from navigator tree -->
+			<string id="DELETE_VIEW_STR" type="String">削除...</string>
+			<string id="DELETE_VIEW_TITLE_STR" type="String">ノードの削除</string>
+			<string id="CONFIRM_DELETE_NAV_TREE_NODE" type="String">'{0}' を削除しますか?</string>
+			
+			<!-- Cubeview Header Context Menu -->
+			<string id="ASCENDING_STR" type="String">昇順</string>
+			<string id="DESCENDING_STR" type="String">降順</string>
+			<string id="DONT_SORT_STR" type="String">ソートしない</string>
+			<string id="TOP_3_STR" type="String">上位 3</string>
+			<string id="TOP_5_STR" type="String">上位 5</string>
+			<string id="TOP_10_STR" type="String">上位 10</string>
+			<string id="BOTTOM_3_STR" type="String">下位 3</string>
+			<string id="BOTTOM_5_STR" type="String">下位 5</string>
+			<string id="BOTTOM_10_STR" type="String">下位 10</string>
+			
+			<!-- Main Toolbar Menus -->
+			<string id="CHART_TYPE_STR" type="String">グラフのタイプ</string>
+			<string id="CHART_PROP_STR" type="String">グラフのプロパティー</string>
+			<string id="SUP_ZERO_ROW_COL_STR" type="String">行と列のゼロを消去</string>
+			<string id="SUP_ZERO_ROW_STR" type="String">行のゼロを消去</string>
+			<string id="SUP_ZERO_COL_STR" type="String">列のゼロを消去</string>
+			
+			<string id="YES_STR" type="String">はい</string>
+			<string id="NO_STR" type="String">いいえ</string>
+			<string id="CANCEL_STR" type="String">キャンセル</string>
+			
+			<string id="JANUARY_STR" type="String">1 月</string>
+			<string id="FEBRUARY_STR" type="String">2 月</string>
+			<string id="MARCH_STR" type="String">3 月</string>
+			<string id="APRIL_STR" type="String">4 月</string>
+			<string id="MAY_STR" type="String">5 月</string>
+			<string id="JUNE_STR" type="String">6 月</string>
+			<string id="JULY_STR" type="String">7 月</string>
+			<string id="AUGUST_STR" type="String">8 月</string>
+			<string id="SEPTEMBER_STR" type="String">9 月</string>
+			<string id="OCTOBER_STR" type="String">10 月</string>
+			<string id="NOVEMBER_STR" type="String">11 月</string>
+			<string id="DECEMBER_STR" type="String">12 月</string>
+			
+			<string id="ADMIN_PASSWORD_TITLE_STR" type="String">IBM Cognos TM1 Web ユーザー・パスワードの変更</string>
+			<string id="DECIMAL_THOUSAND_SEP_STR" type="String">'{0}' を小数点記号として、また '{1}' を桁区切り記号として使用してください。</string>
+			<string id="UNDO_STR" type="String">元に戻す</string>
+			<string id="REDO_STR" type="String">やり直し</string>
+			<string id="WARN_UNSAVED_DATA_STR" type="String">'{0}' に対する変更は保存されませんでした。{1} 「OK」をクリックして継続するか、「キャンセル」をクリックして現在のオブジェクトのままにします。</string>
+
+			<!-- Sandbox menu from main toolbar -->
+			<string id="CREATE_SANDBOX_STR" type="String">サンドボックスの作成...</string>
+			<string id="DELETE_SANDBOX_STR" type="String">サンドボックスの削除...</string>
+
+			<!-- Copy / Paste cells -->
+			<string id="COPY_CLIPBOARD_OFF_TITLE_STR" type="String">クリップボードへのコピー</string>
+			<string id="COPY_CLIPBOARD_OFF_STR" type="String">現在、クリップボードへのコピーがブラウザーでオフになっています。</string>
+			<string id="PASTE_CLIPBOARD_OFF_TITLE_STR" type="String">クリップボードからの貼り付け</string>
+			<string id="PASTE_CLIPBOARD_OFF_STR" type="String">現在、クリップボードからの貼り付けがブラウザーでオフになっています。</string>
+			<string id="LOCAL_DATA_USED_STR" type="String">ローカル・データが使用されます。</string>
+			
+			<!-- Spreading Dialog titles -->
+			<string id="SPREAD_TITLE_PROPORTIONAL_SPREAD" type="String">比例配分</string>
+			<string id="SPREAD_TITLE_EQUAL_SPREAD" type="String">等配分</string>
+			<string id="SPREAD_TITLE_REPEAT" type="String">反復</string>
+			<string id="SPREAD_TITLE_CLEAR" type="String">クリア</string>
+			<string id="SPREAD_TITLE_PERCENT_CHANGE" type="String">変動率</string>
+			<string id="SPREAD_TITLE_STRAIGHT_LINE" type="String">直線</string>
+			<string id="SPREAD_TITLE_GROWTH" type="String">成長率</string>
+			<string id="SPREAD_TITLE_RELATIVE_PROPORTIONAL" type="String">相対比例配分</string>
+			<string id="SPREAD_TITLE_RELATIVE_PERCENT" type="String">相対割合調整</string>
+			
+			<!-- Spreading dialogs fields -->
+			<string id="REFERENCE_CELL_VALUE" type="String">参照セルの値</string>
+			<string id="PERCENT_ADJUSTMENT" type="String">調整率</string>
+			<string id="SPREAD_TITLE_REPEAT_LEAVES" type="String">リーフの反復</string>
+			<string id="SPREAD_TITLE_EQUAL_SPREAD_LEAVES" type="String">リーフの等配分</string>
+			<string id="SPREAD_LABEL_VALUE" type="String">値</string>
+			<string id="SPREAD_LABEL_START" type="String">開始値</string>
+			<string id="SPREAD_LABEL_END" type="String">終了値</string>
+			<string id="SPREAD_LABEL_GROWTH" type="String">成長率</string>
+			<string id="SPREAD_LABEL_CHANGE" type="String">変動率</string>
+			<string id="SPREAD_SECTION_EXTEND" type="String">拡張方向</string>
+			<string id="SPREAD_LABEL_LEFT" type="String">左</string>
+			<string id="SPREAD_LABEL_RIGHT" type="String">右</string>
+			<string id="SPREAD_LABEL_UP" type="String">上</string>
+			<string id="SPREAD_LABEL_DOWN" type="String">下</string>
+			<string id="SPREAD_LABEL_HORIZONTAL" type="String">横</string>
+			<string id="SPREAD_LABEL_VERTICAL" type="String">縦</string>
+			<string id="SPREAD_LABEL_REPLACE" type="String">置換</string>
+			<string id="SPREAD_SECTION_UPDATE" type="String">更新操作</string>
+			<string id="SPREAD_LABEL_ADD" type="String">加算</string>
+			<string id="SPREAD_LABEL_SUBTRACT" type="String">減算</string>
+			<string id="SPREAD_SECTION_APPLY" type="String">適用対象</string>
+			<string id="SPREAD_LABEL_POPULATED" type="String">設定されたリーフ・セル</string>
+			<string id="SPREAD_LABEL_ALL" type="String">すべてのリーフ・セル</string>
+			<string id="SPREAD_BUTTON_APPLY" type="String">適用</string>
+			<string id="SPREAD_BUTTON_CANCEL" type="String">キャンセル</string>
+			<string id="SPREAD_LABEL_RELATIVE_CUBE" type="String">キューブ</string>
+			<string id="SPREAD_LABEL_RELATIVE_VALUE" type="String">値</string>
+			<string id="SPREAD_BUTTON_RELATIVE_CANCEL" type="String">キャンセル</string>
+			<string id="SPREAD_BUTTON_RELATIVE_SUBMIT" type="String">実行</string>
+			<string id="SPREAD_BUTTON_RELATIVE_GO_BACK" type="String">戻る</string>
+			<string id="SPREAD_BUTTON_RELATIVE_SELECT" type="String">選択</string>
+			<string id="SPREAD_BUTTON_RELATIVE_APPLY" type="String">適用</string>
+			
+			<!-- Spreading dialogs table headers -->
+			<string id="SPREAD_TBL_HDR_RELATIVE_DIMENSIONS" type="String">ディメンション</string>
+			<string id="SPREAD_TBL_HDR_RELATIVE_ELMT_NAME" type="String">要素名</string>
+			
+			<!-- Planning Toolbar -->
+			<string id="RESET_ALL_VIEW_TAB_STR" type="String">ビューおよびタブのリセット</string>
+			<string id="RESET_CUR_VIEW_STR" type="String">現在のビューのリセット</string>
+			<string id="RESET_RESET_VIEW_STR" type="String">ビューのリセット</string>
+			<string id="RESET_TABS_STR" type="String">タブのリセット</string>
+			<string id="RESET_ALL_VIEWS_STR" type="String">すべてのビューのリセット</string>
+			<string id="TAKEOWNERSHIP_TOOLTIP_STR" type="String">所有権の取得</string>
+			<string id="SUBMIT_TOOLTIP_STR" type="String">実行</string>
+			<string id="SUBMITLEAVES_TOOLTIP_STR" type="String">リーフの実行</string>
+			<string id="REJECT_TOOLTIP_STR" type="String">却下</string>
+			<string id="APP_HELP_STR" type="String">TM1 Application Web ヘルプ</string>
+			<string id="TAB_HELP_STR" type="String">ヘルプを表示</string>
+			<string id="ABOUT_STR" type="String">バージョン情報</string>
+			<string id="COMMIT_TOOLTIP_STR" type="String">コミット</string>
+			<string id="WORKFLOW_OWNERSHIP_STR" type="String">所有権の取得</string>
+			<string id="WORKFLOW_SUBMIT_STR" type="String">実行</string>
+			<string id="WORKFLOW_REJECT_STR" type="String">却下</string>
+			
+			
+			<!-- i Widget -->
+			<string id="SAVE_VIEW_TOOLTIP_STR" type="String">ビューを保存</string>
+			<string id="METRIC_STRATEGY_DIAGRAMS_STR" type="String">戦略図</string>
+			
+			<!-- TM1 Web Main Toolbar -->
+			<string id="RESET_DATA_STR" type="String">データのリセット</string>
+			<string id="ACTION_MENU_TOOLTIP_STR" type="String">「操作」メニュー</string>
+			<string id="EXPORT_TOOLTIP_STR" type="String">エクスポート</string>
+			<string id="RESET_TOOLTIP_STR" type="String">リセット</string>
+			<string id="UNDO_TOOLTIP_STR" type="String">元に戻す</string>
+			<string id="REDO_TOOLTIP_STR" type="String">やり直し</string>
+			<string id="SWAP_ROWS_COLS_TOOLTIP_STR" type="String">行と列を入れ替える</string>
+			<string id="RECALC_TOOLTIP_STR" type="String">再計算</string>
+			<string id="SAVE_AS_MENU_STR" type="String">名前を付けて保存...</string>
+			<string id="SAVE_AS_TITLE_STR" type="String">名前を付けて保存</string>
+			<string id="SAVE_DATA_CHANGES_MENU_STR" type="String">データ変更の保存</string>
+			<string id="REVIEW_DATA_CHANGES_TOOLTIP_STR" type="String">データの変化を確認</string>
+			<string id="RECALCULATE_TOOLTIP_STR" type="String">再計算</string>
+			<string id="AUTO_RECALCULATE_ON_TOOLTIP_STR" type="String">現在の自動再計算の設定はオン</string>
+			<string id="AUTO_RECALCULATE_OFF_TOOLTIP_STR" type="String">現在の自動再計算の設定はオフ</string>
+			<string id="VIEW_CHART_TOOLTIP_STR" type="String">グラフの表示</string>
+			<string id="VIEW_CHARTGRID_TOOLTIP_STR" type="String">グラフとグリッドの表示</string>
+			<string id="VIEW_GRID_TOOLTIP_STR" type="String">グリッドの表示</string>
+			<string id="CHART_PROP_TOOLTIP_STR" type="String">グラフのプロパティー</string>
+			<string id="CHART_TYPE2_STR" type="String">タイプ</string>
+			<string id="SANDBOX_TOOLTIP_STR" type="String">サンドボックス</string>
+			<string id="CLOSE_VIEW_TOOLTIP_STR" type="String">ビューを閉じる</string>
+			<string id="SELECT_SANDBOX_TOOLTIP_STR" type="String">サンドボックスの選択</string>
+			<string id="SUPPRESS_ZEROES_MENU_STR" type="String">ゼロ値を消去</string>
+			<string id="HELP_TOOLTIP_STR" type="String">ヘルプ</string>
+			
+			<string id="REBUILD_ACTIVE_FORMS_TOOLTIP_STR" type="String">現在のシートを再構築</string>
+			<string id="REBUILD_WORKBOOK_TOOLTIP_STR" type="String">現在のブックを再構築</string>
+			<string id="AUTO_FIT_COLUMNS_TOOLTIP_STR" type="String">選択された列幅の自動適合</string>
+			
+			<!-- Chart Types -->
+			<string id="POINT_CHART_STR" type="String">点グラフ</string>
+			<string id="BUBBLE_CHART_STR" type="String">バブル</string>
+			<string id="LINE_CHART_STR" type="String">行</string>
+			<string id="SPLINE_CHART_STR" type="String">スプライン・グラフ</string>
+			<string id="STEP_LINE_CHART_STR" type="String">ステップ・ライン</string>
+			<string id="BAR_CHART_STR" type="String">横棒</string>
+			<string id="STACKED_BAR_CHART_STR" type="String">積み上げ棒グラフ</string>
+			<string id="COLUMN_CHART_STR" type="String">列</string>
+			<string id="STACKED_COL_CHART_STR" type="String">積み上げ列グラフ</string>
+			<string id="AREA_CHART_STR" type="String">面</string>
+			<string id="SPLINE_AREA_CHART_STR" type="String">スプライン面グラフ</string>
+			<string id="STACKED_AREA_CHART_STR" type="String">積み上げ面グラフ</string>
+			<string id="PIE_CHART_STR" type="String">円</string>
+			<string id="DOUGHNUT_CHART_STR" type="String">ドーナツ</string>
+			<string id="RANGE_CHART_STR" type="String">範囲</string>
+			<string id="SPLINE_RANGE_CHART_STR" type="String">スプライン範囲グラフ</string>
+			<string id="RANGE_COLUMN_CHART_STR" type="String">範囲列</string>
+			
+			
+			<!-- Planning -->
+			<string id="WORKFLOW_SUBMIT_SURE_STR" type="String">このノードを実行しますか?</string>
+			<string id="WORKFLOW_SUBMIT_SURE_LEAVES_STR" type="String">すべてのリーフを実行しますか?</string>
+			<string id="WORKFLOW_REJECT_SURE_STR" type="String">'{0}' を却下してもよろしいですか?</string>
+			<string id="OK_STR" type="String">OK</string>
+			
+			<!-- Sandbox -->
+			<string id="SANDBOX_CREATE_FROM_STR" type="String">サンドボックスの作成元</string>
+			<string id="SANDBOX_COPY_STR" type="String">サンドボックスのコピー</string>
+			<string id="SELECT_SANDBOX_COPY_STR" type="String">コピーするサンドボックスの選択</string>
+			<string id="SANDBOX_NAME_STR" type="String">サンドボックス名</string>
+			<string id="SANDBOX_NEW_STR" type="String">新規作成</string>
+			<string id="SANDBOX_COPY2_STR" type="String">既存のサンドボックスからコピー</string>
+			<string id="CREATE_STR" type="String">作成</string>
+			
+			
+			<string id="NO_SANDBOX_SELECTED_STR" type="String">サンドボックスが選択されていません</string>
+			<string id="SANDBOX_CREATION_STR" type="String">サンドボックスの作成</string>
+			<string id="ENTER_NAME_FOR_SANDBOX_STR" type="String">サンドボックスの名前を入力してください。</string>
+			<string id="SANDBOX_CREATION_FAILED_STR" type="String">サンドボックスの作成に失敗しました。</string>
+			<string id="SANDBOX_DELETE_STR" type="String">サンドボックスの削除</string>
+			<string id="SELECT_SANDBOXES_TO_DELETE_STR" type="String">削除するサンドボックスを選択してください</string>
+			<string id="DELETE_STR" type="String">削除</string>
+			<string id="SOME_SANDBOX_DELETE_FAILED_STR" type="String">一部の選択されたサンドボックスの削除に失敗しました。</string>
+			<string id="CURRENT_OWNER_STR" type="String">現在の所有者</string>
+			<string id="CURRENT_OWNERSHIPNODE_STR" type="String">現在の所有権ノード</string>
+			
+			<!-- Planning State -->
+			<string id="AVAILABLE_STR" type="String">使用可能</string>
+			<string id="RESERVED_STR" type="String">予約済み</string>
+			<string id="WORK_IN_PROGRESS_STR" type="String">進行中</string>
+			<string id="READY_STR" type="String">待機中</string>
+			<string id="INCOMPLETE_STR" type="String">未完了</string>
+			<string id="LOCKED_STR" type="String">ロック済み</string>
+			<string id="NONE_STR" type="String">なし</string>
+			
+			<string id="SANDBOX_COPY_FAILED_STR" type="String">サンドボックスをコピーできませんでした。</string>
+			<string id="SWITCHING_SANDBOX_FAILED_STR" type="String">サンドボックスの切り替えに失敗しました。</string>
+			<string id="SESSION_TIMEOUT_STR" type="String">セッションがタイムアウトになりました。</string>
+			<string id="DO_YOU_WANT_TO_SAVE_CHANGES_STR" type="String">変更内容を保存しますか?</string>
+			<string id="CUBE_NO_PERMISSION_FOR_ANY" type="String">キューブへのアクセス権限がありません。</string>
+
+
+			<!-- Planning Workflow -->
+			<string id="NODE_OWNER_ACTIVE_WARNING_MESSAGE" type="String">現在 1 人以上のユーザーが、この所有権取得アクションで表わされているノードのデータを処理中です。このアクションを続行するとそのユーザーの所有権が取り消され、進行中の処理に影響が及ぶ可能性があります。</string>
+			<string id="NODE_OWNER_INACTIVE_WARNING_MESSAGE" type="String">このノードの所有権を取得すると、ノードの所有者でノードのデータをアクティブに処理していない所有者から所有権が取り消されます。影響を受けたユーザーは、後から所有権取得アクションを実行することにより所有権を再び獲得できます。</string>
+			<string id="NODE_BOUNCE_OWNER_ACTIVE_WARNING_MESSAGE" type="String">却下対象のノードは、別のアクティブなユーザーが作業対象にしているノードの子孫です。却下を続行するとそのユーザーの所有権が取り消され、処理中の作業に影響が及ぶ可能性があります。</string>
+			<string id="NODE_BOUNCE_OWNER_INACTIVE_WARNING_MESSAGE" type="String">却下対象のノードは、別の非アクティブ・ユーザーが所有するノードの子孫です。却下を続行するとそのユーザーの所有権が取り消されますが、そのユーザーは後で所有権取得アクションによって所有権を再獲得する可能性があります。</string>
+			<string id="APPLICATION_INACTIVE_WARNING_MESSAGE" type="String">このアプリケーションは非アクティブです。</string>
+			<string id="TM1_WEB_APPLICATION_STR" type="String">IBM Cognos TM1 Application Web</string>
+			<string id="WARNING" type="String">警告</string>
+			<string id="CONTINUE_STR" type="String">継続</string>
+			<string id="SORT_STR" type="String">ソート</string>
+			<string id="SORT_BY_VALUE_STR" type="String">値によるソート</string>
+			<string id="SORT_BY_LABEL_STR" type="String">ラベルによるソート</string>
+			<string id="HIDE_STR" type="String">非表示</string>
+			<string id="SHOW_ALL_HIDDEN_STR" type="String">すべて表示</string>
+			<string id="EXPAND_TO_LEVEL_STR" type="String">レベルへの展開</string>
+			<string id="LEVEL_STR" type="String">レベル</string>
+			<string id="SELECT_A_PAGE_AND_PRESS_GOTO_PAGE" type="String">ページを選択し、クリックしてページへ移動</string>
+			<string id="ADD_COMMENT_STR" type="String">コメントを追加...</string>
+			<string id="ADD_COMMENT_TITLE_STR" type="String">コメントを追加</string>
+			<string id="BROWSE_COMMENTS_STR" type="String">コメントを参照...</string>
+			<string id="BROWSE_COMMENTS_TITLE_STR" type="String">コメントを参照</string>
+			<string id="COMMENT_STR" type="String">コメント</string>
+			<string id="USER_STR" type="String">ユーザー</string>
+			<string id="DATE_STR" type="String">日付</string>
+			
+			<!-- Login Screens -->
+			<string id="LOGIN_STR" type="String">ログオン</string>
+			<string id="REFRESH_STR" type="String">更新</string>
+			<string id="ENTER_INFO_STR" type="String">情報を入力してください</string>
+			<string id="ADMIN_HOST_STR" type="String">管理ホスト</string>
+			<string id="TM1_SERVER_STR" type="String">TM1 サーバー</string>
+			<string id="USER_NAME_STR" type="String">ユーザー名</string>
+			<string id="PASSWORD_STR" type="String">パスワード</string>
+			<string id="CHANGE_PASSWORD_STR" type="String">パスワードの変更</string>
+			<string id="NEW_PASSWORD_STR" type="String">新規パスワード</string>
+			<string id="CONFIRM_NEW_PASSWORD_STR" type="String">新規パスワードの確認</string>
+			<string id="NATIVE_AUTHENTICATION" type="String">ネイティブ認証</string>
+			<string id="WINDOWS_AUTHENTICATION" type="String">Windows 認証</string>
+			<string id="WILL_TIMEOUT_AFTER_INACTIVITY_STR" type="String">しばらくアイドル状態が続くと、システムは自動的にログアウトし再度サインインするように要求します。</string>
+			
+			<!-- Login Screens Dialogs -->
+			<string id="PASSWORD_UPDATE_TITLE_STR" type="String">パスワード更新</string>
+			<string id="PASSWORD_CHANGED_STR" type="String">パスワードが変更されました。</string>
+			<string id="PASSWORD_NOT_CHANGED_STR" type="String">パスワードは変更されませんでした。</string>
+			<string id="LOGIN_FAILED_STR" type="String">ログオンできませんでした。</string>
+			<string id="PASSWORD_WARNING_STR" type="String">パスワードが一致しませんでした。</string>
+			
+			
+			<string id="LICENSED_MATERIALS_STR" type="String">Licensed Materials - Property of IBM Corp.</string>
+			<string id="COPYRIGHT_STR" type="String">Copyright IBM Corporation and other(s) 2007, 2016. IBM、IBM ロゴおよび ibm.com は、世界の多くの国で登録された International Business Machines Corporation の商標です。現時点での IBM の商標リストについては、www.ibm.com/legal/copytrade.shtml をご覧ください。   </string>
+			<string id="OPEN_SUBSET_EDITOR_STR" type="String">サブセット・エディターを開く</string>
+			<string id="INVALID_DATE_VALUE" type="String">現在のロケールで使用可能な短い日付形式で日付を入力してください。</string>
+			<string id="INVALID_LIST" type="String">このセルにユーザーが入力できる値は限られています。</string>
+			<string id="IF_ENTER_NUMERIC" type="String">数値を入力する場合:</string>
+			<string id="IF_ENTER_DATE" type="String">日付時刻値を入力する場合:</string>
+			<string id="SAVE_VIEW_MENU_STR" type="String">ビューを保存</string>
+			<string id="SAVE_VIEW_TITLE_STR" type="String">ビューに名前を付けて保存</string>
+			<string id="CURRENT_VIEWS_STR" type="String">現在のビュー</string>
+			<string id="PRIVATE_VIEW_STR" type="String">個人用</string>
+			<string id="VIEW_TYPE_STR" type="String">ビュー型</string>
+			<string id="DEFAULT_VIEW_STR" type="String">デフォルト</string>
+			<string id="VIEW_NAME_STR" type="String">ビュー名</string>
+			<string id="STOP_STR" type="String">停止</string>
+			<string id="INFORMATION_STR" type="String">情報</string>
+			<string id="WARNING_STR" type="String">警告</string>
+			<string id="EXPORTING_PAGE_STR" type="String">{1} ページ中 {0} ページ目をエクスポート中</string>
+			<string id="CURRENTLY_PUBLISHING_STR" type="String">発行中...</string>
+			<string id="INVALID_REFERENCE_STR" type="String">参照が正しくありません。</string>
+			<string id="VIEW_FILTER_LABEL_STR" type="String">結果を、選択したセットの上位または下位のアイテムに限定します。</string>
+			<string id="FILTER_TITLE_CUSTOM_STR" type="String">カスタム</string>
+			<string id="PRODUCT_NAME" type="String">IBM Cognos TM1 Web</string>
+			<string id="METRIC_IMPACT_DIAGRAM_STR" type="String">影響図</string>
+			<string id="METRIC_DIAGRAM_STR" type="String">評価指標図</string>
+			<string id="WELCOME_STR" type="String">ようこそ</string>
+			<string id="LOG_OUT_STR" type="String">ログアウト</string>
+			<string id="HOME_STR" type="String">ホーム</string>
+			<string id="REFRESH_NAV_TREE_STR" type="String">ナビゲーション・ツリーの最新表示</string>
+			<string id="COLLAPSE_ALL_NODES_STR" type="String">すべてのノードを省略</string>
+			<string id="EXPAND_ALL_NODES_STR" type="String">すべてのノードを展開</string>
+			<string id="ADD_DIMENSION_HERE_STR" type="String">ここにディメンションを追加</string>
+
+			<string id="RECALC_NEEDED_FOR_CHART_DATA_STR" type="String">データがありません。\"再計算\" をクリックしてグラフを更新してください。</string>
+			<string id="CANNOT_FIND_STR" type="String">'{0}' が見つかりません。</string>
+			<string id="CANNOT_DELETE_CONTROL_OBJECT_STR" type="String">コントロール・オブジェクトを削除できません。</string>
+			<string id="NO_DELETE_PERMISSION_STR" type="String">'{0}' を削除するための権限がありません。</string>
+			<string id="CANNOT_DELETE_STR" type="String">'{0}' を削除できません。</string>
+			<string id="APPLICATION_STR" type="String">アプリケーション</string>
+			<string id="VIEW_STR" type="String">ビュー</string>
+			<string id="JUST_PAGE_STR" type="String">ページ</string>
+			<string id="JUST_OF_STR" type="String"> /</string>
+			<string id="JUST_ROWS_STR" type="String"> /</string>
+			<string id="INSERT_ROW_STR" type="String">行の挿入</string>
+			<string id="DELETE_ROW_STR" type="String">行を削除</string>
+			<string id="INSERT_ROW_MSG_STR" type="String">新しい行の値を入力してください。</string>
+			<string id="DELETE_ROW_MSG_STR" type="String">この行を削除しますか？</string>
+			<string id="NON_ADMIN_SAVE_VIEW_STR" type="String">このサーバー上の管理権限がないため、共有ビューを保存できません。</string>
+			<string id="APP_WILL_CLOSE_STR" type="String">開くことができるビューはありません。アプリケーションはクローズします。</string>
+			<string id="VIEW_ERROR_NAME_STR" type="String">ビュー '{0}' を開くことができません。</string>
+			<string id="VIEW_NOT_FOUND_ERROR_NAME_STR" type="String">ビュー '{0}' が見つかりません。</string>
+			<string id="SAVE_SUBSET_STR" type="String">サブセットを保存</string>
+			<string id="SAVE_SUBSET_AS_STR" type="String">サブセットに名前を付けて保存...</string>
+			<string id="RELOAD_SUBSET_STR" type="String">サブセットの再ロード</string>
+			<string id="SUBSET_ALL_STR" type="String">サブセットすべて</string>
+			<string id="CUT_STR" type="String">切り取り</string>
+			<string id="KEEP_SELECTED_ELEMENTS_STR" type="String">選択した要素を維持</string>
+			<string id="DELETE_SELECTED_ELEMENTS_STR" type="String">選択した要素を削除</string>
+			
+			<!-- Info, Error, and Warning Dialogs -->
+			<string id="ARIA_IMG_ERROR_STR" type="String">エラー</string>
+			<string id="ARIA_IMG_WARNING_STR" type="String">警告</string>
+			<string id="ARIA_IMG_INFO_STR" type="String">通知</string>
+			
+			
+			<string id="APP_ID_TITLE_STR" type="String">アプリケーション ID エラー</string>
+			<string id="SAVE_ERROR_TITLE_STR" type="String">保存エラー</string>
+			
+			<string id="SRV_ERR_TITLE_STR" type="String">サーバー・エラー</string>
+			<string id="SRV_ERR_STR" type="String">エラーが発生しました。</string>
+
+			<string id="CUBEVIEW_LOAD_ERROR_TITLE_STR" type="String">Cubeview のロード・エラー</string>
+			<string id="VIEW_NOT_FOUND_ERROR" type="String">ビューが見つかりません。</string>
+			<string id="MEMORY_EXCEEDED" type="String">操作用の最大メモリーを超えています。</string>
+			<string id="VIEW_ERROR" type="String">ビューを開くことができません。</string>
+			
+			<string id="DRILL_ERROR_TITLE_STR" type="String">ドリル・エラー</string>
+			<string id="DRILL_ERROR" type="String">ドリル・プロセスからエラーが返されました。要素または他の情報が空である可能性があります。</string>
+			
+			<string id="ACTION_BUTTON_NAVIGATION_ERROR_ARG_STR" type="String">ファイルが存在しないため、ターゲットのブック '{0}' を開くことができません。</string>
+			<string id="ACTION_BUTTON_NAVIGATION_ERROR" type="String">ターゲットのブックを開くことができません。ファイルが存在しません。</string>
+			
+			<string id="WORKBOOK_OPEN_FAILED_TITLE_STR" type="String">ブック・エラー</string>
+			<string id="WORKBOOK_OPEN_FAILED_STR" type="String">ターゲットのブックを開くことができません。ファイルが名前変更または削除されていないことを確認してください。</string>
+			<string id="PASTE_FAILURES_TITLE_STR" type="String">貼り付けエラー</string>
+			<string id="PASTE_FAILURES" type="String">少なくとも 1 つの値が無効なため、貼り付けることができません。</string>
+			
+			<string id="SPREADING_NO_UPDATABLE_CELL_TITLE_STR" type="String">データ・スプレッド・エラー</string>
+			<string id="SPREADING_NO_UPDATABLE_CELL_STR" type="String">セルの内容を変更できないため、配分に失敗しました。</string>
+			<string id="SPREADING_FAILED_STR" type="String">データ・スプレッドに失敗しました。</string>
+			
+			<string id="LOGON_TO_SERVER_FAILED_TITLE_STR" type="String">認証エラー</string>
+			<string id="LOGON_TO_SERVER_FAILED_STR" type="String">サーバーへのログオンに失敗しました。</string>
+			
+			<string id="SANDBOX_NAME_MISSING_STR" type="String">コピーされたサンドボックスの新しい名前が指定されていません。</string>
+			<string id="SANDBOX_WARNING_TITLE_STR" type="String">サンドボックスの作成</string>
+			
+			<string id="SUBSET_EXPRESSION_WARNING_TITLE_STR" type="String">式の消失</string>
+			<string id="SUBSET_BY_EXPRESSION" type="String">このサブセットは式を使用して作成されました。</string>
+			<string id="SAVING_DYNAMIC_SUBSET" type="String">変更済みのサブセットを保存すると式が削除され、サブセットは静的サブセットに変換されます。</string>
+			<string id="SUBSET_EXPRESSION_WARNING_OK_STR" type="String">静的サブセットの作成</string>
+			
+			<!-- Editing a cell -->
+			<string id="INVALID_NUMERIC_STR" type="String">数値が必要です。</string>
+			<string id="EDITING_ERROR_TITLE_STR" type="String">編集エラー</string>
+			<string id="INVALID_VALUE" type="String">入力した値が予期される形式ではありません。</string>
+			
+			<!-- Subset Editor Warning Dialogs -->
+			<string id="SUBSET_WARNING_TITLE_STR" type="String">静的コピーが必要</string>
+			<string id="DYNAMIC_SUBSET_MODIFIED" type="String">この動的サブセットは変更されています。</string>
+			<string id="USE_STATIC_SUBSET" type="String">サブセットの静的コピーが使用されます。</string>
+			<string id="SUBSET_WARNING_OK_STR" type="String">静的コピーの作成</string>
+
+			
+			
+			<!-- Subset Editor Toolbar and Menus -->
+			<string id="FILTER_SUBSET_STR" type="String">サブセットのフィルター</string>
+			<string id="FILTER_BY_LEVEL_STR" type="String">レベルによるフィルター...</string>
+			<string id="FILTER_BY_ATTRIBUTE_STR" type="String">属性によるフィルター...</string>
+			<string id="FILTER_BY_EXPRESSION_STR" type="String">式によるフィルター...</string>
+			<string id="FILTER_BY_LEVEL_TITLE_STR" type="String">レベルによるフィルター</string>
+			<string id="FILTER_BY_ATTRIBUTE_TITLE_STR" type="String">属性によるフィルター</string>
+			<string id="FILTER_BY_EXPRESSION_TITLE_STR" type="String">式によるフィルター</string>
+			
+			<string id="SORT_SUBSET_STR" type="String">サブセットのソート</string>
+			<string id="SORT_ASCENDING_STR" type="String">昇順にソート</string>
+			<string id="SORT_DESCENDING_STR" type="String">降順にソート</string>
+			<string id="SORT_HIERARCHICALLY_STR" type="String">階層順にソート</string>
+			<string id="SORT_BY_INDEX_ASCENDING_STR" type="String">昇順インデックスによるソート</string>
+			<string id="SORT_BY_INDEX_DESCENDING_STR" type="String">降順インデックスによるソート</string>
+			<string id="TREE_EXPAND_STR" type="String">ツリーの展開</string>
+			<string id="DRILL_DOWN_SELECTED_CONSOLIDATIONS_STR" type="String">選択した集約をドリルダウン</string>
+			<string id="EXPAND_SELECTED_CONSOLIDATIONS_STR" type="String">選択した集約を展開</string>
+			<string id="EXPAND_TREE_FULLY_STR" type="String">ツリーを完全に展開</string>
+			<string id="TREE_COLLAPSE_STR" type="String">ツリーの折りたたみ</string>
+			<string id="COLLAPSE_SELECTED_CONSOLIDATIONS_STR" type="String">選択した集約を省略</string>
+			<string id="COLLAPSE_TREE_FULLY_STR" type="String">ツリーを完全に省略</string>
+			<string id="INSERT_PARENTS_OF_SELECTED_ELEMENTS_STR" type="String">選択した要素の親を挿入</string>
+			<string id="CREATE_CUSTOM_CONSOLIDATION_STR" type="String">カスタム集約を作成</string>
+			<string id="CREATE_CONSOLIDATION_FROM_SUBSET_STR" type="String">サブセットから集約を作成...</string>
+			<string id="CREATE_CONSOLIDATION_FROM_SUBSET_TITLE_STR" type="String">サブセットから集約を作成</string>
+			<string id="CREATE_CONSOLIDATION_FROM_SELECTED_ELEMENTS_STR" type="String">選択した要素から集約を作成</string>
+			<string id="FIND_IN_SUBSET_STR" type="String">サブセット内で検索</string>
+			<string id="EXPAND_ABOVE_STR" type="String">上へ展開</string>
+			<string id="FIND_NEXT_STR" type="String">次を検索</string>
+			<string id="FIND_PREVIOUS_STR" type="String">前を検索</string>
+			<string id="FIND_IN_SUBSET_PLACEHOLDER_STR" type="String">サブセット内で検索...</string>
+			<string id="PASTE_ABOVE_STR" type="String">上に貼り付け</string>
+			<string id="PASTE_BELOW_STR" type="String">下に貼り付け</string>
+			
+			<!--  Subset Editor -->
+			<string id="UNNAMED_PARENS" type="String">(名前なし)</string>
+			<string id="SUBSET_PRIVATE_STR" type="String">{0} (個人用)</string>
+			<string id="SUBSET_PUBLIC_STR" type="String">{0} (共用)</string>
+			<string id="SUBSET_EDITOR_TITLE" type="String">サブセット・エディター</string>
+			<string id="SUBSET_EDITOR_SUBTITLE" type="String">{0} > {1} > {2}</string>
+			<string id="NO_ALIAS_SELECTED_PARENS" type="String">(別名が選択されていません)</string>
+			<string id="SUBSET_LABEL_STR" type="String">サブセット</string>
+			<string id="ALIAS_LABEL_STR" type="String">別名</string>
+			<string id="SUBSET_NAME_STR" type="String">サブセット名</string>
+			<string id="SAVE_PUBLIC_STR" type="String">共有として保存</string>
+			<string id="OVERWRITE_EXISTING_SUBSET_STR" type="String">既存サブセットの上書き</string>
+			<string id="SUBSET_PAGE_STATUS" type="String">{1} ページ中 {0} ページ目</string>
+			<string id="AVAILABLE_ELEMENTS_HEADER" type="String">使用可能な要素: {0}</string>
+			<string id="SUBSET_HEADER" type="String">サブセット: {0} > {1}</string>
+			<string id="PUBLIC_SUBSET_EXISTS" type="String">共有サブセットはすでに存在します。</string>
+			<string id="PRIVATE_SUBSET_EXISTS" type="String">個人用サブセットはすでに存在します。</string>
+			<string id="SELECT_LEVELS_STR" type="String">レベルを選択</string>
+			<string id="SUBSET_LEVEL" type="String">レベル {0}</string>
+			<string id="SELECT_ATTRIBUTE_STR" type="String">属性を選択</string>
+			<string id="SELECT_VALUE_TO_MATCH_STR" type="String">照合する値を選択</string>
+			<string id="ENTER_EXPRESSION_STR" type="String">式</string>
+			<string id="EXPRESSION_EXAMPLE_STR" type="String">例: A* は文字 A で始まるすべての要素と一致します。</string>
+			<string id="SELECT_SUBSET" type="String">サブセット</string>
+			<string id="VALUE_REQUIRED_STR" type="String">この値は必須です。</string>
+			
+			
+			<string id="UNSUPPORTED_OBJECT_TYPE" type="String">指定されたオブジェクト・タイプはサポートされていません。</string>
+			
+			<!-- Relational Database Login -->
+			<string id="RELATIONAL_ACCESS_FAILED_TITLE_STR" type="String">リレーショナル・データベース・エラー</string>
+			<string id="RELATIONAL_ACCESS_FAILED_STR" type="String">リレーショナル・データベースにアクセスできませんでした。</string>
+			<string id="RELATIONAL_WORKBOOK_FAILED_TITLE_STR" type="String">ブック・エラー</string>
+			<string id="RELATIONAL_WORKBOOK_FAILED_STR" type="String">リレーショナル・ブックを開けませんでした</string>
+			<string id="RELATIONAL_LOGIN_ACCESS_FAILED_STR" type="String">ログオンできませんでした。リレーショナル・データベースにアクセスできませんでした。</string>
+			<string id="RELATIONAL_LOGIN_TITLE" type="String">リレーショナル・データベース認証</string>
+			<string id="RELATIONAL_ENTER_INFO_STR" type="String">データベースの資格情報を入力してください。</string>
+			<string id="RELATIONAL_ENTER_INFO_FOR_STR" type="String">データベースの資格情報を入力してください:</string>
+			<string id="RELATIONAL_DB_NAME_STR" type="String">データベース</string>
+			<string id="BUILD" type="String">ビルド</string>
+			<string id="PA_VERSION" type="String">IBM Planning Analytics バージョン 2.0</string>
+			<string id="EXPORT_NUM_ROWS" type="String">行数</string>
+		</section>
+	</component>
+</stringTable>
+<!-- UFRID:D4C77E1E-DDDE-4352-92CC-78465CB387BE -->
