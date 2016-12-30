@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Licensed Materials - Property of IBM
+
+IBM Cognos Products: tm1web
+
+(C) Copyright IBM Corp. 2007-2013
+
+US Government Users Restricted Rights - Use, duplication or disclosure
+restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<stringTable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../CCLMessageFile.xsd" localization="Product Locale">
+	<component name="DJO" usage="TM1 Web dojo messages">
+		<section name="CMN" usage="common:CommonMessages" type="UI">
+		
+			<!-- About -->
+			<string id="ABOUT_TM1WEB" type="String">Eléments sous licence - Propriété d'IBM Corp. © Copyright IBM Corporation and other(s) 2007, 2016. IBM, le logo IBM, ibm.com, Cognos et TM1 sont des marques d'International Business Machines Corp. dans de nombreux pays.  La liste actualisée de toutes les marques d'IBM est disponible sur la page Web à l'adresse www.ibm.com/legal/copytrade.shtml. Les autres noms de produits et de services peuvent être des marques d’IBM ou d’autres sociétés. Le présent Logiciel est soumis aux dispositions du contrat de licence inclus dans le Logiciel. Ce contrat de licence peut se trouver dans un répertoire du Logiciel ou dans une bibliothèque \"License\" ou \"Non_IBM_License\", le cas échéant, ou être fourni sous la forme d'un exemplaire papier. Lisez attentivement ce contrat avant d'utiliser le Logiciel. Vous acceptez les dispositions du présent contrat en utilisant le logiciel.</string>
+			<string id="ABOUT_PRODUCT_NAME" type="String">A propos d'IBM Cognos TM1 Web</string>
+			
+			<!-- Contributor Splash -->
+			<string id="CONTRIBUTOR_COPYRIGHT" type="String">Eléments sous licence - Propriété d'IBM Corp. © Copyright IBM Corporation and other(s) 2011, 2016. IBM, le logo IBM, ibm.com, Cognos et TM1 sont des marques d'International Business Machines Corp. dans de nombreux pays. La liste actualisée de toutes les marques d'IBM est disponible sur la page Web à l'adresse www.ibm.com/legal/copytrade.shtml. Les autres noms de produits et de services peuvent être des marques d’IBM ou d’autres sociétés. Le présent Logiciel est soumis aux dispositions du contrat de licence inclus dans le Logiciel. Ce contrat de licence peut se trouver dans un répertoire du Logiciel ou dans une bibliothèque \"License\" ou \"Non_IBM_License\", le cas échéant, ou être fourni sous la forme d'un exemplaire papier. Lisez attentivement ce contrat avant d'utiliser le Logiciel. Vous acceptez les dispositions du présent contrat en utilisant le logiciel.</string>
+			<string id="CONTRIBUTOR_VERSION" type="String">Version 11.0</string>
+			
+			<!-- Cube View Navigation Bar -->
+			<string id="TOP_STR" type="String">Haut</string>
+			<string id="TOP_TOOLTIP_STR" type="String">Page du haut de cette colonne</string>
+			<string id="BOTTOM_STR" type="String">Bas</string>
+			<string id="BOTTOM_TOOLTIP_STR" type="String">Page du bas de cette colonne</string>
+			<string id="PAGE_UP_STR" type="String">Page préc.</string>
+			<string id="PAGE_UP_TOOLTIP_STR" type="String">1 page précédente</string>
+			<string id="PAGE_DOWN_STR" type="String">Page suiv.</string>
+			<string id="PAGE_DOWN_TOOLTIP_STR" type="String">1 page suivante</string>
+			<string id="PREVIOUS_PAGE_TOOLTIP_STR" type="String">Page précédente</string>
+			<string id="NEXT_PAGE_TOOLTIP_STR" type="String">Page suivante</string>
+			<string id="DISPLAY_PAGES_TOOLTIP_STR" type="String">Afficher les pages</string>
+			<string id="PAGE_STR" type="String">Afficher les pages</string>
+			
+			<!-- Dimension Drop Panel -->
+			<string id="DIMENSION_DROP_PANEL_DRAG_THIS" type="String">Faites glisser la dimension '{0}' pour la déplacer vers un autre emplacement.</string>
+			<string id="DIMENSION_DROP_PANEL_DIM_STR" type="String">Dimension {0}</string>
+			<string id="DIMENSION_DROP_PANEL_OPEN_SUBSET_EDITOR_STR" type="String">Ouvrir l'éditeur de sous-ensemble</string>
+			
+			<!-- Column Dimension Drop Panel -->
+			<string id="COLUMN_DIMENSION_DROP_PANEL_STR" type="String">Colonnes</string>
+			<string id="COLUMN_DIMENSION_DROP_PANEL_TOOLTIP_STR" type="String">Zone de déplacement de dimensions en colonne</string>
+			
+			<!-- Row Dimension Drop Panel -->
+			<string id="ROW_DIMENSION_DROP_PANEL_STR" type="String">Lignes</string>
+			<string id="ROW_DIMENSION_DROP_PANEL_TOOLTIP_STR" type="String">Zone de déplacement de dimensions en ligne</string>
+			
+			<!-- Title Dimension Drop Panel -->
+			<string id="TITLE_DIMENSION_DROP_PANEL_STR" type="String">Contexte</string>
+			<string id="TITLE_DIMENSION_DROP_PANEL_TOOLTIP_STR" type="String">Zone de déplacement de dimensions contextuelles</string>
+			
+			<!-- Cube View Header and Top or Bottom Dialog -->
+			<string id="EXPAND_TOOLTIP_STR" type="String">Développer</string>
+			<string id="COLLAPSE_TOOLTIP_STR" type="String">Réduire</string>
+			<string id="NO_TOP_OR_BOTTOM_STR" type="String">Pas de premier ou dernier</string>
+			<string id="CUSTOM_STR" type="String">Personnaliser...</string>
+			<string id="TOP_OR_BOTTOM_STR" type="String">Premier ou dernier</string>
+			<string id="NUMBER_OF_ITEMS_STR" type="String">Nombre d'éléments</string>
+
+			<!-- Cube Viewer Export -->
+			<string id="EXPORT_ROWS_CURRENT_PAGE" type="String">Exporter les lignes de la page en cours</string>
+			<string id="EXPORT_ROWS_BEGINNING" type="String">Exporter les lignes depuis le début jusqu'à la page en cours</string>
+			<string id="EXPORT_ROWS_VIEW" type="String">Exporter toutes les lignes de la vue</string>
+			<string id="EXPORT_PAGES_LABEL" type="String">Nombre de lignes à exporter</string>
+			<string id="EXPORT_DIMENSIONS_LABEL" type="String">Dimensions de titre à exporter</string>
+			<string id="EXPORT_AUTO_FIT_LABEL" type="String">Ajuster automatiquement la hauteur de ligne</string>
+			<string id="EXPORT_AUTO_FIT_ROW_HEIGHT_LABEL" type="String">Ajuster automatiquement</string>
+			<string id="MAX_EXPORT_SHEET_NUM_EXCEEDED" type="String">Le nombre de feuilles exportées dépasse le nombre maximal autorisé qui est de {0} feuilles. Essayez de changer les sélections afin de réduire le nombre de feuilles.</string>
+			<string id="TOTAL_SHEETS_LABEL" type="String">Nombre de feuilles à exporter</string>
+			<string id="EXPORT_TITLE_LABEL" type="String">Exporter</string>
+			<string id="CANCEL_EXPORT" type="String">Annuler l'exportation</string>
+			
+			<!--  Impact Diagram -->
+			<!--  Status -->
+			<string id="METRIC_DIAGRAM_POOR" type="String">Médiocre</string>
+			<string id="METRIC_DIAGRAM_AVERAGE" type="String">Moyen</string>
+			<string id="METRIC_DIAGRAM_EXCELLENT" type="String">Excellent</string>
+			<string id="METRIC_DIAGRAM_METRICS" type="String">Indicateurs</string>
+			<string id="METRIC_DIAGRAM_NOT_LIVE" type="String">Indicateurs non opérationnels</string>
+			<!--Trend -->
+			<string id="METRIC_DIAGRAM_WORSE" type="String">Pire</string>
+			<string id="METRIC_DIAGRAM_NO_CHANGE" type="String">Pas de modification</string>
+			<string id="METRIC_DIAGRAM_BETTER" type="String">Mieux</string>
+			<string id="METRIC_DIAGRAM_EVEN" type="String">Identique</string>
+			<!-- Edit Info -->
+			<string id="METRIC_DIAGRAM_INCOMPLETE" type="String">Incomplet</string>
+	
+			<!-- Common Messages -->
+			<string id="ABOUT_HELP_STR" type="String">A propos de TM1 Application Web</string>
+			<string id="m_cultureCode" type="String">fr</string>
+			<string id="OPEN_STR" type="String">Ouvrir</string>
+			<string id="CLOSE_STR" type="String">Fermer</string>
+			<string id="CLOSE_ALL_STR" type="String">Fermer tout</string>
+			<string id="CLOSE_OTHERS_STR" type="String">Fermer les autres</string>
+			
+			<!-- Right click context menus on cells -->
+			<string id="COPY_STR" type="String">Copier</string>
+			<string id="PASTE_STR" type="String">Coller</string>
+			<string id="DATA_SPREAD_STR" type="String">Répartition des données</string>
+			<string id="HOLDS_STR" type="String">Cellules retenues</string>
+			<string id="DRILL_STR" type="String">Accéder au détail</string>
+			<string id="PROPORTIONAL_SPREAD_STR" type="String">Répartition proportionnelle...</string>
+			<string id="EQUAL_SPREAD_STR" type="String">Répartition égale...</string>
+			<string id="REPEAT_SPREAD_STR" type="String">Répéter...</string>
+			<string id="CLEAR_SPREAD_STR" type="String">Effacer...</string>
+			<string id="PC_SPREAD_STR" type="String">Changement en pourcentage...</string>
+			<string id="SL_SPREAD_STR" type="String">Ligne droite...</string>
+			<string id="GP_SPREAD_STR" type="String">Pourcentage de croissance...</string>
+			<string id="RP_SPREAD_STR" type="String">Répartition proportionnelle relative...</string>
+			<string id="RP_ADJ_SPREAD_STR" type="String">Ajustement en pourcentage relatif...</string>
+			<string id="RL_SPREAD_STR" type="String">Répéter les feuilles...</string>
+			<string id="EL_SPREAD_STR" type="String">Répartir également dans les feuilles...</string>
+			<string id="HL_SPREAD_STR" type="String">Retenir les feuilles</string>
+			<string id="HC_SPREAD_STR" type="String">Retenir les consolidations</string>
+			<string id="RLH_SPREAD_STR" type="String">Libérer les feuilles retenues</string>
+			<string id="RC_SPREAD_STR" type="String">Libérer les consolidations</string>
+			<string id="RA_SPREAD_STR" type="String">Libérer toutes les retenues</string>
+			
+			
+			<!--  Spread Dialog Descriptions -->
+			<string id="SPREAD_DESC_PROP_STR" type="String">Répartit une valeur spécifiée entre les cellules, proportionnellement aux valeurs de cellule existantes.</string>
+			<string id="SPREAD_DESC_EQ_STR" type="String">Répartit une valeur spécifiée de façon égale sur les cellules d'une vue.</string>
+			<string id="SPREAD_DESC_EQ_LEAVES_STR" type="String">Répartit une valeur spécifiée de façon égale sur toutes les feuilles d'une cellule consolidée. Vous pouvez choisir de répartir la valeur dans toutes les feuilles de la consolidation ou seulement dans celles qui contiennent déjà des valeurs différentes de zéro.</string>
+			<string id="SPREAD_DESC_RPT_STR" type="String">Répète une valeur spécifiée dans toutes les cellules d'une vue.</string>
+			<string id="SPREAD_DESC_RPT_LEAVES_STR" type="String">Copie une valeur spécifiée dans les feuilles d'une consolidation. Vous pouvez copier la valeur dans toutes les feuilles de la consolidation ou la copier uniquement dans les feuilles qui contiennent déjà des valeurs différentes de zéro.</string>
+			<string id="SPREAD_DESC_PCT_CHANGE_STR" type="String">Multiplie les valeurs de cellule actuelles par un pourcentage spécifié. Le produit de la multiplication peut alors remplacer les valeurs existantes des cellules, y être ajouté ou en être soustrait.</string>
+			<string id="SPREAD_DESC_STR_LINE_STR" type="String">Alimente les cellules de cube par interpolation linéaire entre deux points d'extrémité spécifiés. Par exemple, si vous avez une valeur de début de 100 et une valeur de fin de 200, la valeur médiane est de 150.</string>
+			<string id="SPREAD_DESC_REL_PROP_STR" type="String">Propage les valeurs aux feuilles d'une consolidation, proportionnellement aux feuilles d'une cellule de référence. La cellule de référence peut se trouver dans le cube à partir duquel vous lancez la propagation ou dans un autre cube.</string>
+			<string id="SPREAD_DESC_REL_PCT_ADJ_STR" type="String">Propage les valeurs aux feuilles d'une consolidation en appliquant un ajustement en pourcentage aux feuilles d'une cellule de référence.</string>
+			<string id="SPREAD_DESC_STRT_LINE_STR" type="String">Répartit une valeur spécifiée entre les cellules, proportionnellement aux valeurs de cellule existantes.</string>
+			<string id="SPREAD_DESC_PCT_GROWTH_STR" type="String">Utilise une valeur initiale comme point de départ et incrémente de manière séquentielle toutes les valeurs d'une plage de cellules sélectionnée du pourcentage spécifié.</string>
+			<string id="SPREAD_DESC_CLEAR_STR" type="String">Efface les valeurs des cellules d'une vue. Si vous appliquez la méthode Effacer à une cellule parent, tous les enfants du parent sont réinitialisés à zéro.</string>
+			
+			<!-- Action Menu > Export submenu items -->
+			<string id="SLICE_TO_EXCEL_STR" type="String">Tranche vers Excel</string>
+			<string id="SNAP_TO_EXCEL_STR" type="String">Faire un instantané et le mettre dans Excel</string>
+			<string id="EXPORT_TO_PDF_STR" type="String">Exporter au format PDF</string>
+			
+
+			<string id="LOGOUT_CHECK" type="String">Si vous arrêtez la navigation, vous fermerez votre session TM1 Web.</string>
+			
+			<!-- Delete node from navigator tree -->
+			<string id="DELETE_VIEW_STR" type="String">Supprimer...</string>
+			<string id="DELETE_VIEW_TITLE_STR" type="String">Supprimer un noeud</string>
+			<string id="CONFIRM_DELETE_NAV_TREE_NODE" type="String">Voulez-vous vraiment supprimer '{0}' ?</string>
+			
+			<!-- Cubeview Header Context Menu -->
+			<string id="ASCENDING_STR" type="String">Croissant</string>
+			<string id="DESCENDING_STR" type="String">Décroissant</string>
+			<string id="DONT_SORT_STR" type="String">Ne pas trier</string>
+			<string id="TOP_3_STR" type="String">Les 3 premiers</string>
+			<string id="TOP_5_STR" type="String">Les 5 premiers</string>
+			<string id="TOP_10_STR" type="String">Les 10 premiers</string>
+			<string id="BOTTOM_3_STR" type="String">Les 3 derniers</string>
+			<string id="BOTTOM_5_STR" type="String">Les 5 derniers</string>
+			<string id="BOTTOM_10_STR" type="String">Les 10 derniers</string>
+			
+			<!-- Main Toolbar Menus -->
+			<string id="CHART_TYPE_STR" type="String">Type de graphique</string>
+			<string id="CHART_PROP_STR" type="String">Propriétés du graphique</string>
+			<string id="SUP_ZERO_ROW_COL_STR" type="String">Supprimer les zéros dans les lignes et les colonnes</string>
+			<string id="SUP_ZERO_ROW_STR" type="String">Supprimer les zéros dans les lignes</string>
+			<string id="SUP_ZERO_COL_STR" type="String">Supprimer les zéros dans les colonnes</string>
+			
+			<string id="YES_STR" type="String">Oui</string>
+			<string id="NO_STR" type="String">Non</string>
+			<string id="CANCEL_STR" type="String">Annuler</string>
+			
+			<string id="JANUARY_STR" type="String">Janvier</string>
+			<string id="FEBRUARY_STR" type="String">Février</string>
+			<string id="MARCH_STR" type="String">Mars</string>
+			<string id="APRIL_STR" type="String">Avril</string>
+			<string id="MAY_STR" type="String">Mai</string>
+			<string id="JUNE_STR" type="String">Juin</string>
+			<string id="JULY_STR" type="String">Juillet</string>
+			<string id="AUGUST_STR" type="String">Août</string>
+			<string id="SEPTEMBER_STR" type="String">Septembre</string>
+			<string id="OCTOBER_STR" type="String">Octobre</string>
+			<string id="NOVEMBER_STR" type="String">Novembre</string>
+			<string id="DECEMBER_STR" type="String">Décembre</string>
+			
+			<string id="ADMIN_PASSWORD_TITLE_STR" type="String">Changer le mot de passe utilisateur d'IBM Cognos TM1 Web</string>
+			<string id="DECIMAL_THOUSAND_SEP_STR" type="String">Utilisez '{0}' comme séparateur décimal et '{1}' comme séparateur de milliers.</string>
+			<string id="UNDO_STR" type="String">Annuler</string>
+			<string id="REDO_STR" type="String">Rétablir</string>
+			<string id="WARN_UNSAVED_DATA_STR" type="String">Les modifications que vous avez apportées à '{0}' n'ont pas été enregistrées.{1} Cliquez sur OK pour continuer ou sur Annuler pour rester sur l'objet en cours. </string>
+
+			<!-- Sandbox menu from main toolbar -->
+			<string id="CREATE_SANDBOX_STR" type="String">Créer un bac à sable...</string>
+			<string id="DELETE_SANDBOX_STR" type="String">Supprimer un bac à sable...</string>
+
+			<!-- Copy / Paste cells -->
+			<string id="COPY_CLIPBOARD_OFF_TITLE_STR" type="String">Copie dans le presse-papiers</string>
+			<string id="COPY_CLIPBOARD_OFF_STR" type="String">La copie dans le presse-papiers est couramment désactivée par votre navigateur.</string>
+			<string id="PASTE_CLIPBOARD_OFF_TITLE_STR" type="String">Collage à partir du presse-papiers</string>
+			<string id="PASTE_CLIPBOARD_OFF_STR" type="String">La copie dans le presse-papiers est couramment désactivée par votre navigateur.</string>
+			<string id="LOCAL_DATA_USED_STR" type="String">Les données locales seront utilisées</string>
+			
+			<!-- Spreading Dialog titles -->
+			<string id="SPREAD_TITLE_PROPORTIONAL_SPREAD" type="String">Répartition proportionnelle</string>
+			<string id="SPREAD_TITLE_EQUAL_SPREAD" type="String">Répartition égale</string>
+			<string id="SPREAD_TITLE_REPEAT" type="String">Répéter</string>
+			<string id="SPREAD_TITLE_CLEAR" type="String">Effacer</string>
+			<string id="SPREAD_TITLE_PERCENT_CHANGE" type="String">Changement en pourcentage</string>
+			<string id="SPREAD_TITLE_STRAIGHT_LINE" type="String">Ligne droite</string>
+			<string id="SPREAD_TITLE_GROWTH" type="String">Pourcentage de croissance</string>
+			<string id="SPREAD_TITLE_RELATIVE_PROPORTIONAL" type="String">Répartition proportionnelle relative</string>
+			<string id="SPREAD_TITLE_RELATIVE_PERCENT" type="String">Ajustement en pourcentage relatif</string>
+			
+			<!-- Spreading dialogs fields -->
+			<string id="REFERENCE_CELL_VALUE" type="String">Valeur de la cellule de référence</string>
+			<string id="PERCENT_ADJUSTMENT" type="String">% d'ajustement</string>
+			<string id="SPREAD_TITLE_REPEAT_LEAVES" type="String">Répéter les feuilles</string>
+			<string id="SPREAD_TITLE_EQUAL_SPREAD_LEAVES" type="String">Répartir également dans les feuilles</string>
+			<string id="SPREAD_LABEL_VALUE" type="String">Valeur</string>
+			<string id="SPREAD_LABEL_START" type="String">Valeur de départ</string>
+			<string id="SPREAD_LABEL_END" type="String">Valeur de fin</string>
+			<string id="SPREAD_LABEL_GROWTH" type="String">% de croissance</string>
+			<string id="SPREAD_LABEL_CHANGE" type="String">% de modifications</string>
+			<string id="SPREAD_SECTION_EXTEND" type="String">Etendre</string>
+			<string id="SPREAD_LABEL_LEFT" type="String">Gauche</string>
+			<string id="SPREAD_LABEL_RIGHT" type="String">Droite</string>
+			<string id="SPREAD_LABEL_UP" type="String">Haut</string>
+			<string id="SPREAD_LABEL_DOWN" type="String">Bas</string>
+			<string id="SPREAD_LABEL_HORIZONTAL" type="String">Horizontal</string>
+			<string id="SPREAD_LABEL_VERTICAL" type="String">Vertical</string>
+			<string id="SPREAD_LABEL_REPLACE" type="String">Remplacer</string>
+			<string id="SPREAD_SECTION_UPDATE" type="String">Action Mettre à jour</string>
+			<string id="SPREAD_LABEL_ADD" type="String">Ajouter</string>
+			<string id="SPREAD_LABEL_SUBTRACT" type="String">Soustraire</string>
+			<string id="SPREAD_SECTION_APPLY" type="String">Appliquer à</string>
+			<string id="SPREAD_LABEL_POPULATED" type="String">Cellules feuilles chargées</string>
+			<string id="SPREAD_LABEL_ALL" type="String">Toutes les cellules feuilles</string>
+			<string id="SPREAD_BUTTON_APPLY" type="String">Appliquer</string>
+			<string id="SPREAD_BUTTON_CANCEL" type="String">Annuler</string>
+			<string id="SPREAD_LABEL_RELATIVE_CUBE" type="String">Cube</string>
+			<string id="SPREAD_LABEL_RELATIVE_VALUE" type="String">Valeur</string>
+			<string id="SPREAD_BUTTON_RELATIVE_CANCEL" type="String">Annuler</string>
+			<string id="SPREAD_BUTTON_RELATIVE_SUBMIT" type="String">Soumettre</string>
+			<string id="SPREAD_BUTTON_RELATIVE_GO_BACK" type="String">Précédent</string>
+			<string id="SPREAD_BUTTON_RELATIVE_SELECT" type="String">Sélectionner</string>
+			<string id="SPREAD_BUTTON_RELATIVE_APPLY" type="String">Appliquer</string>
+			
+			<!-- Spreading dialogs table headers -->
+			<string id="SPREAD_TBL_HDR_RELATIVE_DIMENSIONS" type="String">Dimensions</string>
+			<string id="SPREAD_TBL_HDR_RELATIVE_ELMT_NAME" type="String">Nom de l'élément</string>
+			
+			<!-- Planning Toolbar -->
+			<string id="RESET_ALL_VIEW_TAB_STR" type="String">Réinitialiser les vues et les onglets</string>
+			<string id="RESET_CUR_VIEW_STR" type="String">Réinitialiser la vue en cours</string>
+			<string id="RESET_RESET_VIEW_STR" type="String">Réinitialiser la vue</string>
+			<string id="RESET_TABS_STR" type="String">Réinitialiser les onglets</string>
+			<string id="RESET_ALL_VIEWS_STR" type="String">Réinitialiser toutes les vues</string>
+			<string id="TAKEOWNERSHIP_TOOLTIP_STR" type="String">Prendre possession</string>
+			<string id="SUBMIT_TOOLTIP_STR" type="String">Soumettre</string>
+			<string id="SUBMITLEAVES_TOOLTIP_STR" type="String">Soumettre les feuilles</string>
+			<string id="REJECT_TOOLTIP_STR" type="String">Rejeter</string>
+			<string id="APP_HELP_STR" type="String">Aide de TM1 Application Web</string>
+			<string id="TAB_HELP_STR" type="String">Afficher l'aide</string>
+			<string id="ABOUT_STR" type="String">A propos de</string>
+			<string id="COMMIT_TOOLTIP_STR" type="String">Valider</string>
+			<string id="WORKFLOW_OWNERSHIP_STR" type="String">Prendre possession</string>
+			<string id="WORKFLOW_SUBMIT_STR" type="String">Soumettre</string>
+			<string id="WORKFLOW_REJECT_STR" type="String">Rejeter</string>
+			
+			
+			<!-- i Widget -->
+			<string id="SAVE_VIEW_TOOLTIP_STR" type="String">Enregistrer la vue</string>
+			<string id="METRIC_STRATEGY_DIAGRAMS_STR" type="String">Diagrammes de stratégie</string>
+			
+			<!-- TM1 Web Main Toolbar -->
+			<string id="RESET_DATA_STR" type="String">Réinitialiser les données</string>
+			<string id="ACTION_MENU_TOOLTIP_STR" type="String">Menus Actions</string>
+			<string id="EXPORT_TOOLTIP_STR" type="String">Exporter</string>
+			<string id="RESET_TOOLTIP_STR" type="String">Réinitialiser</string>
+			<string id="UNDO_TOOLTIP_STR" type="String">Annuler</string>
+			<string id="REDO_TOOLTIP_STR" type="String">Rétablir</string>
+			<string id="SWAP_ROWS_COLS_TOOLTIP_STR" type="String">Permuter les lignes et les colonnes</string>
+			<string id="RECALC_TOOLTIP_STR" type="String">Recalculer</string>
+			<string id="SAVE_AS_MENU_STR" type="String">Enregistrer sous...</string>
+			<string id="SAVE_AS_TITLE_STR" type="String">Enregistrer sous</string>
+			<string id="SAVE_DATA_CHANGES_MENU_STR" type="String">Enregistrer les modifications de données</string>
+			<string id="REVIEW_DATA_CHANGES_TOOLTIP_STR" type="String">Révisez les modifications apportées aux données</string>
+			<string id="RECALCULATE_TOOLTIP_STR" type="String">Recalculer</string>
+			<string id="AUTO_RECALCULATE_ON_TOOLTIP_STR" type="String">Le recalcul automatique est actuellement activé</string>
+			<string id="AUTO_RECALCULATE_OFF_TOOLTIP_STR" type="String">Le recalcul automatique est actuellement désactivé</string>
+			<string id="VIEW_CHART_TOOLTIP_STR" type="String">Afficher le graphique</string>
+			<string id="VIEW_CHARTGRID_TOOLTIP_STR" type="String">Afficher le graphique et la grille</string>
+			<string id="VIEW_GRID_TOOLTIP_STR" type="String">Afficher la grille</string>
+			<string id="CHART_PROP_TOOLTIP_STR" type="String">Propriétés du graphique</string>
+			<string id="CHART_TYPE2_STR" type="String">Type</string>
+			<string id="SANDBOX_TOOLTIP_STR" type="String">Bac à sable</string>
+			<string id="CLOSE_VIEW_TOOLTIP_STR" type="String">Fermer la vue</string>
+			<string id="SELECT_SANDBOX_TOOLTIP_STR" type="String">Sélectionner un bac à sable</string>
+			<string id="SUPPRESS_ZEROES_MENU_STR" type="String">Supprimer les valeurs nulles</string>
+			<string id="HELP_TOOLTIP_STR" type="String">Aide</string>
+			
+			<string id="REBUILD_ACTIVE_FORMS_TOOLTIP_STR" type="String">Permet de régénérer la feuille en cours</string>
+			<string id="REBUILD_WORKBOOK_TOOLTIP_STR" type="String">Permet de régénérer le classeur en cours</string>
+			<string id="AUTO_FIT_COLUMNS_TOOLTIP_STR" type="String">Permet d'ajuster automatiquement la largeur de la colonne sélectionnée</string>
+			
+			<!-- Chart Types -->
+			<string id="POINT_CHART_STR" type="String">Points</string>
+			<string id="BUBBLE_CHART_STR" type="String">Bulles</string>
+			<string id="LINE_CHART_STR" type="String">En courbe</string>
+			<string id="SPLINE_CHART_STR" type="String">En spline</string>
+			<string id="STEP_LINE_CHART_STR" type="String">En escalier</string>
+			<string id="BAR_CHART_STR" type="String">A barres</string>
+			<string id="STACKED_BAR_CHART_STR" type="String">Barres empilées</string>
+			<string id="COLUMN_CHART_STR" type="String">Colonnes</string>
+			<string id="STACKED_COL_CHART_STR" type="String">Colonnes empilées</string>
+			<string id="AREA_CHART_STR" type="String">En aires</string>
+			<string id="SPLINE_AREA_CHART_STR" type="String">Zone de spline</string>
+			<string id="STACKED_AREA_CHART_STR" type="String">Zones empilées</string>
+			<string id="PIE_CHART_STR" type="String">En secteurs</string>
+			<string id="DOUGHNUT_CHART_STR" type="String">En anneaux</string>
+			<string id="RANGE_CHART_STR" type="String">En banderole</string>
+			<string id="SPLINE_RANGE_CHART_STR" type="String">Plage de splines</string>
+			<string id="RANGE_COLUMN_CHART_STR" type="String">Colonne de la plage</string>
+			
+			
+			<!-- Planning -->
+			<string id="WORKFLOW_SUBMIT_SURE_STR" type="String">Voulez-vous vraiment soumettre ce noeud ?</string>
+			<string id="WORKFLOW_SUBMIT_SURE_LEAVES_STR" type="String">Voulez-vous vraiment soumettre toutes les feuilles ?</string>
+			<string id="WORKFLOW_REJECT_SURE_STR" type="String">Voulez-vous vraiment rejeter '{0}' ?</string>
+			<string id="OK_STR" type="String">OK</string>
+			
+			<!-- Sandbox -->
+			<string id="SANDBOX_CREATE_FROM_STR" type="String">Créer un bac à sable à partir de</string>
+			<string id="SANDBOX_COPY_STR" type="String">Copie du bac à sable</string>
+			<string id="SELECT_SANDBOX_COPY_STR" type="String">Sélectionner les bacs à sable à copier</string>
+			<string id="SANDBOX_NAME_STR" type="String">Nom du bac à sable</string>
+			<string id="SANDBOX_NEW_STR" type="String">Créer</string>
+			<string id="SANDBOX_COPY2_STR" type="String">Copier depuis le bac à sable existant</string>
+			<string id="CREATE_STR" type="String">Créer</string>
+			
+			
+			<string id="NO_SANDBOX_SELECTED_STR" type="String">Aucun bac à sable n'est sélectionné</string>
+			<string id="SANDBOX_CREATION_STR" type="String">Créer un bac à sable</string>
+			<string id="ENTER_NAME_FOR_SANDBOX_STR" type="String">Entrez un nom pour le bac à sable.</string>
+			<string id="SANDBOX_CREATION_FAILED_STR" type="String">Echec de la création du bac à sable.</string>
+			<string id="SANDBOX_DELETE_STR" type="String">Supprimer un bac à sable</string>
+			<string id="SELECT_SANDBOXES_TO_DELETE_STR" type="String">Sélectionner les bacs à sable à supprimer</string>
+			<string id="DELETE_STR" type="String">Supprimer</string>
+			<string id="SOME_SANDBOX_DELETE_FAILED_STR" type="String">Certains bacs à sable cochés n'ont pas été supprimés.</string>
+			<string id="CURRENT_OWNER_STR" type="String">Propriétaire actuel</string>
+			<string id="CURRENT_OWNERSHIPNODE_STR" type="String">Noeud de propriété actuel</string>
+			
+			<!-- Planning State -->
+			<string id="AVAILABLE_STR" type="String">Disponible(s)</string>
+			<string id="RESERVED_STR" type="String">Réservé</string>
+			<string id="WORK_IN_PROGRESS_STR" type="String">Travail en cours</string>
+			<string id="READY_STR" type="String">Prêt</string>
+			<string id="INCOMPLETE_STR" type="String">Incomplet</string>
+			<string id="LOCKED_STR" type="String">Verrouillé</string>
+			<string id="NONE_STR" type="String">Aucun</string>
+			
+			<string id="SANDBOX_COPY_FAILED_STR" type="String">Impossible de copier le bac à sable.</string>
+			<string id="SWITCHING_SANDBOX_FAILED_STR" type="String">Echec du changement de bac à sable.</string>
+			<string id="SESSION_TIMEOUT_STR" type="String">Délai de connexion dépassé.</string>
+			<string id="DO_YOU_WANT_TO_SAVE_CHANGES_STR" type="String">Voulez-vous enregistrer vos modifications ?</string>
+			<string id="CUBE_NO_PERMISSION_FOR_ANY" type="String">Vos autorisations ne vous permettent d'accéder à aucun cube.</string>
+
+
+			<!-- Planning Workflow -->
+			<string id="NODE_OWNER_ACTIVE_WARNING_MESSAGE" type="String">Un ou plusieurs utilisateurs utilisent actuellement les données des noeuds représentés par cette action de prise de possession.  La poursuite de cette action révoquera leur possession et peut impacter leur travail en cours.</string>
+			<string id="NODE_OWNER_INACTIVE_WARNING_MESSAGE" type="String">La prise de possession de ce noeud va révoquer la possession des propriétaires qui ne sont pas en train d'utiliser activement les données du noeud.  Les utilisateurs impactés pourront reprendre possession du noeud par l'action Prendre possession.</string>
+			<string id="NODE_BOUNCE_OWNER_ACTIVE_WARNING_MESSAGE" type="String">Le noeud que vous allez rejeter est un descendant d'un noeud activement utilisé par un autre utilisateur.  Cette action révoquera sa possession et peut impacter son travail en cours.</string>
+			<string id="NODE_BOUNCE_OWNER_INACTIVE_WARNING_MESSAGE" type="String">Le noeud que vous allez rejeter est un descendant d'un noeud appartenant à un autre utilisateur non actif.  Cette action révoquera sa possession, mais il pourra la reprendre par l'action Prendre possession.</string>
+			<string id="APPLICATION_INACTIVE_WARNING_MESSAGE" type="String">Cette application n'est pas active.</string>
+			<string id="TM1_WEB_APPLICATION_STR" type="String">IBM Cognos TM1 Application Web</string>
+			<string id="WARNING" type="String">Avertissement</string>
+			<string id="CONTINUE_STR" type="String">Continuer</string>
+			<string id="SORT_STR" type="String">Trier</string>
+			<string id="SORT_BY_VALUE_STR" type="String">Trier par valeur</string>
+			<string id="SORT_BY_LABEL_STR" type="String">Trier par libellé</string>
+			<string id="HIDE_STR" type="String">Masquer</string>
+			<string id="SHOW_ALL_HIDDEN_STR" type="String">Afficher tous les éléments masqués</string>
+			<string id="EXPAND_TO_LEVEL_STR" type="String">Développer jusqu'au niveau</string>
+			<string id="LEVEL_STR" type="String">Niveau</string>
+			<string id="SELECT_A_PAGE_AND_PRESS_GOTO_PAGE" type="String">Sélectionnez une page et cliquez pour y accéder</string>
+			<string id="ADD_COMMENT_STR" type="String">Ajouter un commentaire...</string>
+			<string id="ADD_COMMENT_TITLE_STR" type="String">Ajout d'un commentaire</string>
+			<string id="BROWSE_COMMENTS_STR" type="String">Parcourir les commentaires...</string>
+			<string id="BROWSE_COMMENTS_TITLE_STR" type="String">Exploration des commentaires</string>
+			<string id="COMMENT_STR" type="String">Commentaire</string>
+			<string id="USER_STR" type="String">Utilisateur</string>
+			<string id="DATE_STR" type="String">Date</string>
+			
+			<!-- Login Screens -->
+			<string id="LOGIN_STR" type="String">Connexion</string>
+			<string id="REFRESH_STR" type="String">Actualiser</string>
+			<string id="ENTER_INFO_STR" type="String">Veuillez saisir vos informations</string>
+			<string id="ADMIN_HOST_STR" type="String">Hôte admin</string>
+			<string id="TM1_SERVER_STR" type="String">Serveur TM1</string>
+			<string id="USER_NAME_STR" type="String">Nom d'utilisateur</string>
+			<string id="PASSWORD_STR" type="String">Mot de passe</string>
+			<string id="CHANGE_PASSWORD_STR" type="String">Modifier le mot de passe</string>
+			<string id="NEW_PASSWORD_STR" type="String">Nouveau mot de passe</string>
+			<string id="CONFIRM_NEW_PASSWORD_STR" type="String">Confirmer le nouveau mot de passe</string>
+			<string id="NATIVE_AUTHENTICATION" type="String">Authentification native</string>
+			<string id="WINDOWS_AUTHENTICATION" type="String">Authentification Windows</string>
+			<string id="WILL_TIMEOUT_AFTER_INACTIVITY_STR" type="String">Notez qu'au bout d'un certain délai d'inactivité, le système vous déconnecte automatiquement et vous invite à vous reconnecter.</string>
+			
+			<!-- Login Screens Dialogs -->
+			<string id="PASSWORD_UPDATE_TITLE_STR" type="String">Mise à jour du mot de passe</string>
+			<string id="PASSWORD_CHANGED_STR" type="String">Le mot de passe a été modifié.</string>
+			<string id="PASSWORD_NOT_CHANGED_STR" type="String">Le mot de passe n'a pas été modifié.</string>
+			<string id="LOGIN_FAILED_STR" type="String">Echec de connexion</string>
+			<string id="PASSWORD_WARNING_STR" type="String">Les mots de passe ne concordent pas.</string>
+			
+			
+			<string id="LICENSED_MATERIALS_STR" type="String">Eléments sous licence - Propriété d'IBM Corp.</string>
+			<string id="COPYRIGHT_STR" type="String">Copyright IBM Corporation et autre(s) 2007, 2016. IBM, le logo IBM, ibm.com, TM1 et Cognos sont des marques d'International Business Machines Corp. dans de nombreux pays.  La liste actualisée de toutes les marques d'IBM est disponible sur la page Web à l'adresse www.ibm.com/legal/copytrade.shtml.</string>
+			<string id="OPEN_SUBSET_EDITOR_STR" type="String">Ouvrir l'éditeur de sous-ensemble</string>
+			<string id="INVALID_DATE_VALUE" type="String">Entrez une date dans le format de date court correspondant à votre environnement local.</string>
+			<string id="INVALID_LIST" type="String">Un utilisateur dispose de valeurs restreintes pouvant être entrées dans cette cellule.</string>
+			<string id="IF_ENTER_NUMERIC" type="String">Si vous tentez d'entrer une valeur numérique :</string>
+			<string id="IF_ENTER_DATE" type="String">Si vous tentez d'entrer une valeur date-heure :</string>
+			<string id="SAVE_VIEW_MENU_STR" type="String">Enregistrer la vue</string>
+			<string id="SAVE_VIEW_TITLE_STR" type="String">Enregistrer la vue sous</string>
+			<string id="CURRENT_VIEWS_STR" type="String">Vues actuelles</string>
+			<string id="PRIVATE_VIEW_STR" type="String">Privé</string>
+			<string id="VIEW_TYPE_STR" type="String">Type de vue</string>
+			<string id="DEFAULT_VIEW_STR" type="String">Par défaut</string>
+			<string id="VIEW_NAME_STR" type="String">Nom de la vue</string>
+			<string id="STOP_STR" type="String">ARRETER</string>
+			<string id="INFORMATION_STR" type="String">INFORMATION</string>
+			<string id="WARNING_STR" type="String">AVERTISSEMENT</string>
+			<string id="EXPORTING_PAGE_STR" type="String">Exportation de la Page {0} sur {1}</string>
+			<string id="CURRENTLY_PUBLISHING_STR" type="String">Publication en cours...</string>
+			<string id="INVALID_REFERENCE_STR" type="String">La référence n'est pas valide.</string>
+			<string id="VIEW_FILTER_LABEL_STR" type="String">Limiter les résultats aux premiers ou aux derniers éléments d'un ensemble sélectionné.</string>
+			<string id="FILTER_TITLE_CUSTOM_STR" type="String">Personnalisé</string>
+			<string id="PRODUCT_NAME" type="String">IBM Cognos TM1 Web</string>
+			<string id="METRIC_IMPACT_DIAGRAM_STR" type="String">Diagramme d'impact</string>
+			<string id="METRIC_DIAGRAM_STR" type="String">Diagramme d'indicateurs</string>
+			<string id="WELCOME_STR" type="String">Bienvenue</string>
+			<string id="LOG_OUT_STR" type="String">Se déconnecter</string>
+			<string id="HOME_STR" type="String">Accueil</string>
+			<string id="REFRESH_NAV_TREE_STR" type="String">Actualiser l'arborescence de navigation</string>
+			<string id="COLLAPSE_ALL_NODES_STR" type="String">Réduire tous les noeuds</string>
+			<string id="EXPAND_ALL_NODES_STR" type="String">Développer tous les noeuds</string>
+			<string id="ADD_DIMENSION_HERE_STR" type="String">Ajouter une dimension ici</string>
+
+			<string id="RECALC_NEEDED_FOR_CHART_DATA_STR" type="String">Pas de données disponibles. Cliquez sur \"Recalculer\" pour mettre à jour le graphique.</string>
+			<string id="CANNOT_FIND_STR" type="String">Impossible de trouver '{0}'.</string>
+			<string id="CANNOT_DELETE_CONTROL_OBJECT_STR" type="String">Vous ne pouvez pas supprimer un objet de contrôle.</string>
+			<string id="NO_DELETE_PERMISSION_STR" type="String">Vous n'avez pas les droits nécessaires pour supprimer '{0}'.</string>
+			<string id="CANNOT_DELETE_STR" type="String">Impossible de supprimer '{0}'.</string>
+			<string id="APPLICATION_STR" type="String">Applications</string>
+			<string id="VIEW_STR" type="String">Vues</string>
+			<string id="JUST_PAGE_STR" type="String">Page</string>
+			<string id="JUST_OF_STR" type="String">de</string>
+			<string id="JUST_ROWS_STR" type="String">de</string>
+			<string id="INSERT_ROW_STR" type="String">Insérer une ligne</string>
+			<string id="DELETE_ROW_STR" type="String">Supprimer une ligne</string>
+			<string id="INSERT_ROW_MSG_STR" type="String">Saisissez les valeurs de la nouvelle ligne :</string>
+			<string id="DELETE_ROW_MSG_STR" type="String">Voulez-vous vraiment supprimer cette ligne ?</string>
+			<string id="NON_ADMIN_SAVE_VIEW_STR" type="String">Vous n'avez pas les privilèges administratifs pour ce serveur et ne pouvez donc pas enregistrer une vue publique.</string>
+			<string id="APP_WILL_CLOSE_STR" type="String">Aucune des vues n'a pu être ouverte. L'application va se fermer.</string>
+			<string id="VIEW_ERROR_NAME_STR" type="String">Impossible d'ouvrir la vue '{0}'.</string>
+			<string id="VIEW_NOT_FOUND_ERROR_NAME_STR" type="String">Vue '{0}' introuvable.</string>
+			<string id="SAVE_SUBSET_STR" type="String">Enregistrer un sous-ensemble</string>
+			<string id="SAVE_SUBSET_AS_STR" type="String">Enregistrer le sous-ensemble sous...</string>
+			<string id="RELOAD_SUBSET_STR" type="String">Recharger un sous-ensemble</string>
+			<string id="SUBSET_ALL_STR" type="String">Sous-ensemble Tout</string>
+			<string id="CUT_STR" type="String">Couper</string>
+			<string id="KEEP_SELECTED_ELEMENTS_STR" type="String">Conserver les éléments sélectionnés</string>
+			<string id="DELETE_SELECTED_ELEMENTS_STR" type="String">Supprimer les éléments sélectionnés</string>
+			
+			<!-- Info, Error, and Warning Dialogs -->
+			<string id="ARIA_IMG_ERROR_STR" type="String">Erreur</string>
+			<string id="ARIA_IMG_WARNING_STR" type="String">Avertissement</string>
+			<string id="ARIA_IMG_INFO_STR" type="String">Informations</string>
+			
+			
+			<string id="APP_ID_TITLE_STR" type="String">Erreur d'ID application</string>
+			<string id="SAVE_ERROR_TITLE_STR" type="String">Erreur de sauvegarde</string>
+			
+			<string id="SRV_ERR_TITLE_STR" type="String">Erreur serveur</string>
+			<string id="SRV_ERR_STR" type="String">Une erreur s'est produite.</string>
+
+			<string id="CUBEVIEW_LOAD_ERROR_TITLE_STR" type="String">Erreur de chargement de la vue de cube</string>
+			<string id="VIEW_NOT_FOUND_ERROR" type="String">Vue introuvable.</string>
+			<string id="MEMORY_EXCEEDED" type="String">Dépassement de la mémoire maximale disponible pour l'action.</string>
+			<string id="VIEW_ERROR" type="String">Impossible d'ouvrir la vue.</string>
+			
+			<string id="DRILL_ERROR_TITLE_STR" type="String">Erreur d'exploration</string>
+			<string id="DRILL_ERROR" type="String">Le processus d'accès au détail a renvoyé une erreur. L'élément ou une autre information peut être vide.</string>
+			
+			<string id="ACTION_BUTTON_NAVIGATION_ERROR_ARG_STR" type="String">Impossible d'ouvrir le classeur cible '{0}' car le fichier n'existe pas.</string>
+			<string id="ACTION_BUTTON_NAVIGATION_ERROR" type="String">Echec de l'ouverture du classeur cible. Le fichier n'existe pas.</string>
+			
+			<string id="WORKBOOK_OPEN_FAILED_TITLE_STR" type="String">Erreur de classeur</string>
+			<string id="WORKBOOK_OPEN_FAILED_STR" type="String">Echec de l'ouverture du classeur cible. Vérifiez que le fichier n'a pas été renommé ou supprimé.</string>
+			<string id="PASTE_FAILURES_TITLE_STR" type="String">Erreur de collage</string>
+			<string id="PASTE_FAILURES" type="String">Au moins une des valeurs n'était pas valide et n'a donc pas pu être collée.</string>
+			
+			<string id="SPREADING_NO_UPDATABLE_CELL_TITLE_STR" type="String">Erreur de répartition des données</string>
+			<string id="SPREADING_NO_UPDATABLE_CELL_STR" type="String">La répartition a échoué car le contenu des cellules ne peut pas être modifié.</string>
+			<string id="SPREADING_FAILED_STR" type="String">Echec de la répartition de données.</string>
+			
+			<string id="LOGON_TO_SERVER_FAILED_TITLE_STR" type="String">Erreur d'authentification</string>
+			<string id="LOGON_TO_SERVER_FAILED_STR" type="String">Echec de la connexion au serveur.</string>
+			
+			<string id="SANDBOX_NAME_MISSING_STR" type="String">Le nouveau nom du bac à sable copié n'est pas spécifié.</string>
+			<string id="SANDBOX_WARNING_TITLE_STR" type="String">Créer un bac à sable</string>
+			
+			<string id="SUBSET_EXPRESSION_WARNING_TITLE_STR" type="String">Perte d'expression</string>
+			<string id="SUBSET_BY_EXPRESSION" type="String">Ce sous-ensemble a été créé à l'aide d'une expression.</string>
+			<string id="SAVING_DYNAMIC_SUBSET" type="String">Si vous enregistrez le sous-ensemble modifié, l'expression sera supprimée et le sous-ensemble deviendra statique.</string>
+			<string id="SUBSET_EXPRESSION_WARNING_OK_STR" type="String">Créer un sous-ensemble statique</string>
+			
+			<!-- Editing a cell -->
+			<string id="INVALID_NUMERIC_STR" type="String">Une valeur numérique est requise.</string>
+			<string id="EDITING_ERROR_TITLE_STR" type="String">Erreur d'édition</string>
+			<string id="INVALID_VALUE" type="String">La valeur entrée ne possède pas le format attendu.</string>
+			
+			<!-- Subset Editor Warning Dialogs -->
+			<string id="SUBSET_WARNING_TITLE_STR" type="String">Copie statique requise.</string>
+			<string id="DYNAMIC_SUBSET_MODIFIED" type="String">Ce sous-ensemble dynamique a été modifié.</string>
+			<string id="USE_STATIC_SUBSET" type="String">Une copie statique du sous-ensemble sera utilisée.</string>
+			<string id="SUBSET_WARNING_OK_STR" type="String">Créer une copie statique</string>
+
+			
+			
+			<!-- Subset Editor Toolbar and Menus -->
+			<string id="FILTER_SUBSET_STR" type="String">Filtrer un sous-ensemble</string>
+			<string id="FILTER_BY_LEVEL_STR" type="String">Filtrer par niveau...</string>
+			<string id="FILTER_BY_ATTRIBUTE_STR" type="String">Filtrer par attribut...</string>
+			<string id="FILTER_BY_EXPRESSION_STR" type="String">Filtrer par expression...</string>
+			<string id="FILTER_BY_LEVEL_TITLE_STR" type="String">Filtrage par niveau</string>
+			<string id="FILTER_BY_ATTRIBUTE_TITLE_STR" type="String">Filtrage par attribut</string>
+			<string id="FILTER_BY_EXPRESSION_TITLE_STR" type="String">Filtrage par expression</string>
+			
+			<string id="SORT_SUBSET_STR" type="String">Trier un sous-ensemble</string>
+			<string id="SORT_ASCENDING_STR" type="String">Tri par ordre croissant</string>
+			<string id="SORT_DESCENDING_STR" type="String">Tri par ordre décroissant</string>
+			<string id="SORT_HIERARCHICALLY_STR" type="String">Trier par ordre hiérarchique</string>
+			<string id="SORT_BY_INDEX_ASCENDING_STR" type="String">Trie par index croissant</string>
+			<string id="SORT_BY_INDEX_DESCENDING_STR" type="String">Trie par index décroissant</string>
+			<string id="TREE_EXPAND_STR" type="String">Développement d'arborescence</string>
+			<string id="DRILL_DOWN_SELECTED_CONSOLIDATIONS_STR" type="String">Consolidations sélectionnées par l'exploration</string>
+			<string id="EXPAND_SELECTED_CONSOLIDATIONS_STR" type="String">Développer les consolidations sélectionnées</string>
+			<string id="EXPAND_TREE_FULLY_STR" type="String">Développer entièrement l'arborescence</string>
+			<string id="TREE_COLLAPSE_STR" type="String">Réduction d'arborescence</string>
+			<string id="COLLAPSE_SELECTED_CONSOLIDATIONS_STR" type="String">Consolidations sélectionnées par la réduction</string>
+			<string id="COLLAPSE_TREE_FULLY_STR" type="String">Réduire entièrement l'arborescence</string>
+			<string id="INSERT_PARENTS_OF_SELECTED_ELEMENTS_STR" type="String">Insérer les parents des éléments sélectionnés</string>
+			<string id="CREATE_CUSTOM_CONSOLIDATION_STR" type="String">Créer une consolidation personnalisée</string>
+			<string id="CREATE_CONSOLIDATION_FROM_SUBSET_STR" type="String">Créer une consolidation à partir d'un sous-ensemble...</string>
+			<string id="CREATE_CONSOLIDATION_FROM_SUBSET_TITLE_STR" type="String">Création d'une consolidation à partir d'un sous-ensemble</string>
+			<string id="CREATE_CONSOLIDATION_FROM_SELECTED_ELEMENTS_STR" type="String">Création d'une consolidation à partir des éléments sélectionnés</string>
+			<string id="FIND_IN_SUBSET_STR" type="String">Rechercher dans le sous-ensemble</string>
+			<string id="EXPAND_ABOVE_STR" type="String">Développer au-dessus</string>
+			<string id="FIND_NEXT_STR" type="String">Rechercher suivant</string>
+			<string id="FIND_PREVIOUS_STR" type="String">Rechercher précédent</string>
+			<string id="FIND_IN_SUBSET_PLACEHOLDER_STR" type="String">Rechercher dans le sous-ensemble...</string>
+			<string id="PASTE_ABOVE_STR" type="String">Coller au-dessus</string>
+			<string id="PASTE_BELOW_STR" type="String">Coller en dessous</string>
+			
+			<!--  Subset Editor -->
+			<string id="UNNAMED_PARENS" type="String">(sans nom)</string>
+			<string id="SUBSET_PRIVATE_STR" type="String">{0} (Privé)</string>
+			<string id="SUBSET_PUBLIC_STR" type="String">{0} (Public)</string>
+			<string id="SUBSET_EDITOR_TITLE" type="String">Editeur de sous-ensemble</string>
+			<string id="SUBSET_EDITOR_SUBTITLE" type="String">{0} > {1} > {2}</string>
+			<string id="NO_ALIAS_SELECTED_PARENS" type="String">(pas d'alias sélectionné)</string>
+			<string id="SUBSET_LABEL_STR" type="String">Sous-ensemble</string>
+			<string id="ALIAS_LABEL_STR" type="String">Alias</string>
+			<string id="SUBSET_NAME_STR" type="String">Nom du sous-ensemble</string>
+			<string id="SAVE_PUBLIC_STR" type="String">Enregistrer - Publique</string>
+			<string id="OVERWRITE_EXISTING_SUBSET_STR" type="String">Remplacer le sous-ensemble existant</string>
+			<string id="SUBSET_PAGE_STATUS" type="String">Page : {0} sur {1}</string>
+			<string id="AVAILABLE_ELEMENTS_HEADER" type="String">Eléments disponibles : {0}</string>
+			<string id="SUBSET_HEADER" type="String">Sous-ensemble : {0} > {1}</string>
+			<string id="PUBLIC_SUBSET_EXISTS" type="String">Ce sous-ensemble public existe déjà.</string>
+			<string id="PRIVATE_SUBSET_EXISTS" type="String">Ce sous-ensemble privé existe déjà.</string>
+			<string id="SELECT_LEVELS_STR" type="String">Niveau(x) sélectionné(s)</string>
+			<string id="SUBSET_LEVEL" type="String">Niveau {0}</string>
+			<string id="SELECT_ATTRIBUTE_STR" type="String">Sélectionner un attribut</string>
+			<string id="SELECT_VALUE_TO_MATCH_STR" type="String">Sélectionner une valeur à rechercher</string>
+			<string id="ENTER_EXPRESSION_STR" type="String">Expression</string>
+			<string id="EXPRESSION_EXAMPLE_STR" type="String">Exemple : A* retrouvera tous les éléments commençant par la lettre A.</string>
+			<string id="SELECT_SUBSET" type="String">Sous-ensemble</string>
+			<string id="VALUE_REQUIRED_STR" type="String">Cette valeur est requise.</string>
+			
+			
+			<string id="UNSUPPORTED_OBJECT_TYPE" type="String">Le type d'objet spécifié n'est pas pris en charge.</string>
+			
+			<!-- Relational Database Login -->
+			<string id="RELATIONAL_ACCESS_FAILED_TITLE_STR" type="String">Erreur de base de données relationnelle</string>
+			<string id="RELATIONAL_ACCESS_FAILED_STR" type="String">Impossible d'accéder à la base de données relationnelle.</string>
+			<string id="RELATIONAL_WORKBOOK_FAILED_TITLE_STR" type="String">Erreur de classeur</string>
+			<string id="RELATIONAL_WORKBOOK_FAILED_STR" type="String">Impossible d'ouvrir le classeur relationnel</string>
+			<string id="RELATIONAL_LOGIN_ACCESS_FAILED_STR" type="String">La connexion a échoué, impossible d'accéder à la base de données relationnelle</string>
+			<string id="RELATIONAL_LOGIN_TITLE" type="String">Authentification de la base de données relationnelle</string>
+			<string id="RELATIONAL_ENTER_INFO_STR" type="String">Entrez vos données d'identification de base de données</string>
+			<string id="RELATIONAL_ENTER_INFO_FOR_STR" type="String">Entrez vos données d'identification de base de données pour</string>
+			<string id="RELATIONAL_DB_NAME_STR" type="String">Base de données</string>
+			<string id="BUILD" type="String">Générer </string>
+			<string id="PA_VERSION" type="String">IBM Planning Analytics version 2.0</string>
+			<string id="EXPORT_NUM_ROWS" type="String">lignes</string>
+		</section>
+	</component>
+</stringTable>
+<!-- UFRID:D4C77E1E-DDDE-4352-92CC-78465CB387BE -->
